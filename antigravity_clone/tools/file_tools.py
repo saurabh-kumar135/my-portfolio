@@ -5,7 +5,13 @@ Same @tool pattern, same safe_path security, MORE tools.
 import pathlib
 from langchain_core.tools import tool
 
-WORKSPACE = pathlib.Path(__file__).parent.parent / "workspace"
+import os
+
+env_workspace = os.environ.get("AGENT_WORKSPACE")
+if env_workspace:
+    WORKSPACE = pathlib.Path(env_workspace)
+else:
+    WORKSPACE = pathlib.Path(__file__).parent.parent / "workspace"
 
 
 def safe_path(path: str) -> pathlib.Path:

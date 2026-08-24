@@ -1,9 +1,12 @@
 # Python
+venv/
 .venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.bak
+*.log
 .Python
 
 # Environment — contains API keys (NEVER commit this!)
@@ -14,8 +17,7 @@ __pycache__/
 
 # Agent workspace files (generated at runtime)
 workspace/
-
-# Screenshots taken by agent
+workspace_old_backup/
 workspace/_screenshots/
 
 # IDE

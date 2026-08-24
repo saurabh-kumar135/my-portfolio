@@ -1,14 +1,20 @@
 """
 Antigravity Clone — LangGraph Agent
-Same architecture as ai_agent/graph.py but with:
   - Direct LLM tool calling (NOT create_react_agent — it breaks on Groq)
   - ALL tools (files, terminal, browser, search)
   - Self-correction: loops until task is done
 """
+import os
+import json
+import time
+import re
 from dotenv import load_dotenv
 load_dotenv()
 
-import json
+from langchain_core.globals import set_debug, set_verbose
+set_debug(False)   # disabled — floods output and freezes the process
+set_verbose(False) # disabled — not needed for web usage
+
 from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langgraph.graph import StateGraph, END
@@ -21,14 +27,16 @@ from tools.search_tools import web_search
 
 # Browser tools loaded lazily
 try:
-    from tools.browser_tools import open_url, click_element, type_text, screenshot, get_page_text
-    BROWSER_TOOLS = [open_url, click_element, type_text, screenshot, get_page_text]
+    from tools.browser_tools import open_url, click_element, type_text, screenshot, get_page_text, scroll_page, wait_seconds
+    BROWSER_TOOLS = [open_url, click_element, type_text, screenshot, get_page_text, scroll_page, wait_seconds]
 except Exception:
     BROWSER_TOOLS = []
-    print("⚠️  Browser tools unavailable (run: playwright install chromium)")
 
 # ── LLM Setup ──
-llm = ChatGroq(model="llama-3.3-70b-versatile")
+llm = ChatGroq(
+    model=os.getenv("GROQ_MODEL", "qwen/qwen3.6-27b"),
+    max_retries=0,
+)
 
 # ── Tool registry ──
 ALL_TOOLS = [
@@ -36,184 +44,20 @@ ALL_TOOLS = [
     run_command, web_search,
 ] + BROWSER_TOOLS
 
-# Build a name→function lookup
 TOOL_MAP = {t.name: t for t in ALL_TOOLS}
 
-# Build tool descriptions for the system prompt
 def _tool_descriptions() -> str:
     lines = []
     for t in ALL_TOOLS:
         schema = t.get_input_schema().model_json_schema()
-        props = schema.get("properties", {})
+        props  = schema.get("properties", {})
         params = ", ".join(f"{k}: {v.get('type', 'str')}" for k, v in props.items())
         lines.append(f"  • {t.name}({params}) — {t.description}")
     return "\n".join(lines)
 
-# ── Agent node: thinks + decides what tool to use ──
-def agent_node(state: dict) -> dict:
-    messages  = state.get("messages", [])
-    iteration = state.get("iteration", 0)
-
-    # ── DRY RUN PRINT: Iteration header ──────────────────────────────
-    print(f"\n{'='*60}")
-    print(f"  🔁 ITERATION {iteration + 1}")
-    print(f"{'='*60}")
-    print(f"  📥 state['iteration']      = {iteration}")
-    print(f"  📥 state['is_complete']    = {state.get('is_complete', False)}")
-    print(f"  📥 state['messages'] count = {len(messages)}")
-    for i, m in enumerate(messages):
-        preview = m['content'][:80].replace('\n', '↵')
-        print(f"      messages[{i}] role={m['role']!r:12} content={preview!r}")
-    print()
-
-    # Build the prompt with tool info
-    system = (
-        agent_system_prompt() + "\n\n"
-        "AVAILABLE TOOLS:\n" + _tool_descriptions() + "\n\n"
-        "TO USE A TOOL, respond with ONLY this JSON (nothing else before or after):\n"
-        '{"tool": "tool_name", "args": {"param1": "value1"}}\n\n'
-        "RULES:\n"
-        "- Send ONLY the JSON object when using a tool. No explanation text.\n"
-        "- Use ONE tool per response.\n"
-        "- After each tool result, decide: use another tool OR give your final answer.\n"
-        "- When DONE, respond with a plain text summary (no JSON)."
-    )
-
-    # ── DRY RUN PRINT: System prompt summary ─────────────────────────
-    print(f"  📝 SYSTEM PROMPT built ({len(system)} chars)")
-    print(f"      First 120 chars: {system[:120].replace(chr(10), '↵')!r}")
-    print()
-
-    # Build LLM messages
-    llm_messages = [SystemMessage(content=system)]
-
-    # ── DRY RUN PRINT: Message conversion loop ────────────────────────
-    print(f"  🔄 Converting {len(messages)} state messages → LangChain objects:")
-    for i, msg in enumerate(messages):
-        if msg["role"] == "user":
-            llm_messages.append(HumanMessage(content=msg["content"]))
-            print(f"      Pass {i+1}: role='user'      → HumanMessage('{msg['content'][:60]}')")
-        elif msg["role"] == "assistant":
-            llm_messages.append(AIMessage(content=msg["content"]))
-            print(f"      Pass {i+1}: role='assistant' → AIMessage('{msg['content'][:60]}')")
-        elif msg["role"] == "tool":
-            llm_messages.append(HumanMessage(content=f"[Tool Result]: {msg['content']}"))
-            print(f"      Pass {i+1}: role='tool'      → HumanMessage('[Tool Result]: {msg['content'][:50]}')")
-
-    print(f"\n  📦 llm_messages ready: {len(llm_messages)} objects")
-    print(f"      [0] SystemMessage  ({len(system)} chars)")
-    for i, m in enumerate(llm_messages[1:], 1):
-        mtype = type(m).__name__
-        preview = m.content[:60].replace('\n', '↵')
-        print(f"      [{i}] {mtype:15} ({len(m.content)} chars) → {preview!r}")
-    print()
-
-    # ── DRY RUN PRINT: LLM call ──────────────────────────────────────
-    print(f"  📡 Calling Groq API (llama-3.3-70b-versatile)...")
-    print(f"      POST https://api.groq.com/openai/v1/chat/completions")
-    print(f"      Sending {len(llm_messages)} messages...")
-
-    resp    = llm.invoke(llm_messages)
-    content = resp.content.strip()
-
-    # ── DRY RUN PRINT: LLM response ──────────────────────────────────
-    print(f"\n  📨 Groq responded:")
-    print(f"      role    = 'assistant'")
-    print(f"      content = {content!r}")
-    print()
-
-    # Extract JSON tool call from anywhere in the response
-    tool_call = _extract_tool_call(content)
-
-    # ── DRY RUN PRINT: Tool call extraction ──────────────────────────
-    if tool_call:
-        print(f"  🔍 _extract_tool_call() → found JSON tool call:")
-        print(f"      tool_call = {tool_call}")
-        print(f"      tool_name = {tool_call['tool']!r}")
-        print(f"      tool_args = {tool_call.get('args', {})}")
-    else:
-        print(f"  🔍 _extract_tool_call() → None (plain text — final answer!)")
-    print()
-
-    new_messages = messages.copy()
-
-    if tool_call:
-        tool_name = tool_call["tool"]
-        tool_args = tool_call.get("args", {})
-
-        # Execute the tool
-        if tool_name in TOOL_MAP:
-            print(f"  🔧 Executing tool: {tool_name}")
-            print(f"      TOOL_MAP[{tool_name!r}].invoke({tool_args})")
-            try:
-                result = TOOL_MAP[tool_name].invoke(tool_args)
-            except Exception as e:
-                result = f"❌ Tool error: {e}"
-            print(f"\n  ✅ Tool result:")
-            result_str = str(result)
-            # Print result line by line for readability
-            for line in result_str[:500].split('\n'):
-                print(f"      {line}")
-            if len(result_str) > 500:
-                print(f"      ... ({len(result_str)} chars total, truncated)")
-        else:
-            result = f"❌ Unknown tool: {tool_name}. Available: {list(TOOL_MAP.keys())}"
-            print(f"  ❌ Unknown tool: {tool_name}")
-
-        # ── DRY RUN PRINT: Appending messages ────────────────────────
-        print(f"\n  📎 Appending to new_messages:")
-        assistant_msg = {"role": "assistant", "content": json.dumps(tool_call)}
-        tool_msg      = {"role": "tool",      "content": str(result)}
-
-        print(f"      +1 assistant: {json.dumps(tool_call)[:80]!r}")
-        new_messages.append(assistant_msg)
-
-        print(f"      +2 tool:      {str(result)[:80]!r}")
-        new_messages.append(tool_msg)
-
-        print(f"\n      new_messages length: {len(messages)} → {len(new_messages)}")
-
-        # ── DRY RUN PRINT: Return state ───────────────────────────────
-        print(f"\n  📤 Returning state:")
-        print(f"      messages    : {len(new_messages)} messages")
-        print(f"      iteration   : {iteration} → {iteration + 1}")
-        print(f"      is_complete : False  (tool was called → loop again)")
-        print(f"      response    : None")
-        print(f"\n  ➡️  should_continue() will be called next...")
-
-        return {
-            "messages":    new_messages,
-            "iteration":   iteration + 1,
-            "is_complete": False,
-            "response":    None,
-        }
-    else:
-        # Not a tool call — this is the final response
-        new_messages.append({"role": "assistant", "content": content})
-
-        # ── DRY RUN PRINT: Final answer ───────────────────────────────
-        print(f"  🏁 FINAL ANSWER (no tool call detected)")
-        print(f"      Appending assistant message to new_messages")
-        print(f"      new_messages length: {len(messages)} → {len(new_messages)}")
-        print(f"\n  📤 Returning state:")
-        print(f"      messages    : {len(new_messages)} messages")
-        print(f"      iteration   : {iteration} → {iteration + 1}")
-        print(f"      is_complete : True  ← this stops the loop!")
-        print(f"      response    : {content[:100]!r}")
-        print(f"\n  ➡️  should_continue() will return 'done'")
-
-        return {
-            "messages":    new_messages,
-            "iteration":   iteration + 1,
-            "is_complete": True,
-            "response":    content,
-        }
-
 
 def _extract_tool_call(text: str):
     """Extract a JSON tool call from LLM text, even if surrounded by other text."""
-    import re
-
     # Method 1: Try parsing the whole text as JSON
     try:
         parsed = json.loads(text)
@@ -222,8 +66,8 @@ def _extract_tool_call(text: str):
     except (json.JSONDecodeError, TypeError):
         pass
 
-    # Method 2: Find JSON object with "tool" key anywhere in text
-    matches = re.findall(r'\{[^{}]*"tool"\s*:\s*"[^"]+"\s*,\s*"args"\s*:\s*\{[^{}]*\}[^{}]*\}', text)
+    # Method 2: Find JSON object with "tool" key using regex
+    matches = re.findall(r'\{[^{}]*"tool"\s*:\s*"[^"]+"[^{}]*\}', text)
     for match in matches:
         try:
             parsed = json.loads(match)
@@ -232,7 +76,7 @@ def _extract_tool_call(text: str):
         except (json.JSONDecodeError, TypeError):
             pass
 
-    # Method 3: Find any JSON object containing "tool"
+    # Method 3: Find any balanced JSON object containing "tool"
     for i, ch in enumerate(text):
         if ch == '{':
             depth = 0
@@ -254,25 +98,86 @@ def _extract_tool_call(text: str):
     return None
 
 
-# ── Router: should we loop or stop? ──
+# ── Agent node ──
+def agent_node(state: dict) -> dict:
+    messages  = state.get("messages", [])
+    iteration = state.get("iteration", 0)
+
+    system = (
+        agent_system_prompt() + "\n\n"
+        "AVAILABLE TOOLS:\n" + _tool_descriptions() + "\n\n"
+        "TO USE A TOOL, respond with ONLY this JSON (nothing else before or after):\n"
+        '{"tool": "tool_name", "args": {"param1": "value1"}}\n\n'
+        "RULES:\n"
+        "- Send ONLY the JSON object when using a tool. No explanation text.\n"
+        "- Use ONE tool per response.\n"
+        "- After each tool result, decide: use another tool OR give your final answer.\n"
+        "- When DONE, respond with a plain text summary (no JSON)."
+    )
+
+    llm_messages = [SystemMessage(content=system)]
+    for msg in messages:
+        if msg["role"] == "user":
+            llm_messages.append(HumanMessage(content=msg["content"]))
+        elif msg["role"] == "assistant":
+            llm_messages.append(AIMessage(content=msg["content"]))
+        elif msg["role"] == "tool":
+            llm_messages.append(HumanMessage(content=f"[Tool Result]: {msg['content']}"))
+
+    # LLM call with auto-retry on rate limit
+    resp = None
+    for attempt in range(4):
+        try:
+            resp = llm.invoke(llm_messages)
+            break
+        except Exception as e:
+            err_str = str(e)
+            wait_match = re.search(r'Please try again in (\d+\.?\d*)s', err_str)
+            if wait_match and attempt < 3:
+                wait_secs = float(wait_match.group(1)) + 2
+                time.sleep(wait_secs)
+            else:
+                raise
+
+    content    = resp.content.strip()
+    tool_call  = _extract_tool_call(content)
+    new_messages = messages.copy()
+
+    if tool_call:
+        tool_name = tool_call["tool"]
+        tool_args = tool_call.get("args", {})
+
+        if tool_name in TOOL_MAP:
+            try:
+                result = TOOL_MAP[tool_name].invoke(tool_args)
+            except Exception as e:
+                result = f"Tool error: {e}"
+        else:
+            result = f"Unknown tool: {tool_name}. Available: {list(TOOL_MAP.keys())}"
+
+        new_messages.append({"role": "assistant", "content": json.dumps(tool_call)})
+        new_messages.append({"role": "tool",      "content": str(result)})
+
+        return {
+            "messages":    new_messages,
+            "iteration":   iteration + 1,
+            "is_complete": False,
+            "response":    None,
+        }
+    else:
+        new_messages.append({"role": "assistant", "content": content})
+        return {
+            "messages":    new_messages,
+            "iteration":   iteration + 1,
+            "is_complete": True,
+            "response":    content,
+        }
+
+
+# ── Router ──
 def should_continue(state: dict) -> str:
-    is_complete = state.get("is_complete", False)
-    iteration   = state.get("iteration", 0)
-    max_iter    = state.get("max_iterations", 15)
-
-    # ── DRY RUN PRINT: should_continue ───────────────────────────────
-    print(f"\n  🔀 should_continue() called:")
-    print(f"      is_complete = {is_complete}")
-    print(f"      iteration   = {iteration} / {max_iter}")
-
-    if is_complete:
-        print(f"      → 'done'  (is_complete=True)")
+    if state.get("is_complete", False) or state.get("iteration", 0) >= state.get("max_iterations", 20):
         return "done"
-    if iteration >= max_iter:
-        print(f"      → 'done'  (iteration {iteration} >= max {max_iter})")
-        return "done"
-
-    print(f"      → 'continue'  (looping back to agent_node)")
     return "continue"
 
 
@@ -280,57 +185,36 @@ def should_continue(state: dict) -> str:
 graph = StateGraph(dict)
 graph.add_node("agent", agent_node)
 graph.set_entry_point("agent")
-graph.add_conditional_edges("agent", should_continue, {
-    "continue": "agent",
-    "done": END,
-})
+graph.add_conditional_edges("agent", should_continue, {"continue": "agent", "done": END})
 agent = graph.compile()
 
 
-def run_agent(user_message: str) -> str:
+def run_agent(user_message: str, conversation_history: list = None) -> str:
     """Run the agent with a user message and return the response."""
+    history  = conversation_history or []
+    messages = history + [{"role": "user", "content": user_message}]
 
-    # ── DRY RUN PRINT: Startup ────────────────────────────────────────
-    print(f"\n{'#'*60}")
-    print(f"  🚀 run_agent() called")
-    print(f"{'#'*60}")
-    print(f"  user_message = {user_message!r}")
-    print(f"\n  📋 ALL_TOOLS registered ({len(ALL_TOOLS)} tools):")
-    for t in ALL_TOOLS:
-        print(f"      • {t.name}")
-    print(f"\n  📋 TOOL_MAP keys:")
-    print(f"      {list(TOOL_MAP.keys())}")
-
-    initial_state = {
-        "messages":       [{"role": "user", "content": user_message}],
+    result = agent.invoke({
+        "messages":       messages,
         "iteration":      0,
-        "max_iterations": 15,
+        "max_iterations": 20,
         "is_complete":    False,
         "response":       None,
-    }
+    })
 
-    # ── DRY RUN PRINT: Initial state ─────────────────────────────────
-    print(f"\n  📦 Initial state passed to agent.invoke():")
-    print(f"      messages       = [{{'role': 'user', 'content': {user_message!r}}}]")
-    print(f"      iteration      = 0")
-    print(f"      max_iterations = 15")
-    print(f"      is_complete    = False")
-    print(f"      response       = None")
-    print(f"\n  ▶️  Starting LangGraph execution...\n")
+    final_response = result.get("response")
 
-    result = agent.invoke(initial_state)
+    if not final_response:
+        for msg in reversed(result.get("messages", [])):
+            role    = msg.get("role", "") if isinstance(msg, dict) else getattr(msg, "role", "")
+            content = msg.get("content", "") if isinstance(msg, dict) else getattr(msg, "content", "")
+            if role == "assistant" and content and not content.startswith("{"):
+                final_response = content
+                break
+        if not final_response:
+            final_response = "Task completed. Please check the workspace for any created files."
 
-    # ── DRY RUN PRINT: Final result ───────────────────────────────────
-    print(f"\n{'#'*60}")
-    print(f"  ✅ LangGraph execution COMPLETE")
-    print(f"{'#'*60}")
-    print(f"  Total iterations  : {result.get('iteration', '?')}")
-    print(f"  Total messages    : {len(result.get('messages', []))}")
-    print(f"  is_complete       : {result.get('is_complete')}")
-    print(f"  response preview  : {str(result.get('response', ''))[:100]!r}")
-    print()
-
-    return result.get("response", "Agent completed but produced no response.")
+    return final_response
 
 
 if __name__ == "__main__":

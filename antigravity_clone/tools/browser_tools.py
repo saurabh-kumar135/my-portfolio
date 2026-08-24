@@ -40,14 +40,18 @@ def _get_page():
     if _page is None:
         from playwright.sync_api import sync_playwright
         _pw = sync_playwright().start()
+        ext_path = "/home/saurabh-kumar123/.config/google-chrome/Default/Extensions/eeijfnjmjelapkebgockoeaadonbchdd/1.11.3_0"
         _browser = _pw.chromium.launch(
             headless=False,
+            executable_path="/usr/bin/google-chrome",
             args=[
+                f"--disable-extensions-except={ext_path}",
+                f"--load-extension={ext_path}",
                 "--no-sandbox",
                 "--disable-setuid-sandbox",
                 "--disable-blink-features=AutomationControlled",
-                "--window-position=0,0",            # open at top-left corner of screen
-                "--window-size=1280,800",           # fixed window size
+                "--window-position=0,0",
+                "--window-size=1280,800",
             ]
         )
         context = _browser.new_context(
@@ -55,9 +59,11 @@ def _get_page():
             no_viewport=False,
         )
         _page = context.new_page()
-        # Move window to front immediately after creation
-        _page.bring_to_front()
-        time.sleep(0.5)                            # give window manager time to show it
+        try:
+            _page.bring_to_front()   # non-blocking best-effort
+        except Exception:
+            pass
+        time.sleep(0.5)
         _raise_browser_window()
     return _page
 
@@ -67,11 +73,13 @@ def open_url(url: str) -> str:
     """Open a URL in the browser. Use this to navigate to websites."""
     try:
         page = _get_page()
-        page.bring_to_front()
         page.goto(url, timeout=15000)
         page.wait_for_load_state("domcontentloaded")
-        page.bring_to_front()                      # force to front after page loads
-        _raise_browser_window()                    # use OS-level window raise
+        try:
+            page.bring_to_front()   # best-effort — skip if it hangs
+        except Exception:
+            pass
+        _raise_browser_window()
         title = page.title()
         return f"✅ Opened: {url}\nPage title: {title}"
     except Exception as e:
@@ -85,7 +93,8 @@ def click_element(selector: str) -> str:
     Examples: 'button#submit', 'a.nav-link', 'input[type=submit]', 'text=Sign In'"""
     try:
         page = _get_page()
-        page.click(selector, timeout=5000)
+        page.wait_for_selector(selector, timeout=10000)  # wait for element to appear
+        page.click(selector, timeout=10000)
         page.wait_for_load_state("domcontentloaded")
         return f"✅ Clicked: {selector}"
     except Exception as e:
@@ -98,8 +107,9 @@ def type_text(selector: str, text: str) -> str:
     Examples: selector='input#email', text='user@example.com'"""
     try:
         page = _get_page()
-        page.fill(selector, text, timeout=5000)
-        return f"✅ Typed '{text}' into {selector}"
+        page.wait_for_selector(selector, timeout=10000)  # wait for field to appear
+        page.fill(selector, text, timeout=10000)
+        return f"✅ Typed into {selector}"
     except Exception as e:
         return f"❌ Could not type into '{selector}': {e}"
 
@@ -135,3 +145,31 @@ def get_page_text() -> str:
         return f"Page text:\n{text}"
     except Exception as e:
         return f"❌ Could not get page text: {e}"
+
+
+@tool
+def scroll_page(direction: str = "down", amount: int = 500) -> str:
+    """Scroll the browser page up or down.
+    direction: 'down' or 'up'
+    amount: pixels to scroll (default 500)
+    Examples: direction='down', amount=500"""
+    try:
+        page = _get_page()
+        pixels = amount if direction == "down" else -amount
+        page.evaluate(f"window.scrollBy(0, {pixels})")
+        time.sleep(0.3)
+        return f"✅ Scrolled {direction} by {amount}px"
+    except Exception as e:
+        return f"❌ Scroll failed: {e}"
+
+
+@tool
+def wait_seconds(seconds: int = 2) -> str:
+    """Wait for a number of seconds. Useful after clicking play on a video.
+    seconds: how long to wait (default 2, max 10)"""
+    try:
+        secs = min(int(seconds), 10)
+        time.sleep(secs)
+        return f"✅ Waited {secs} seconds"
+    except Exception as e:
+        return f"❌ Wait failed: {e}"
