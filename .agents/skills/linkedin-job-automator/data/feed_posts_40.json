@@ -1,0 +1,739 @@
+{
+  "extractedAt": 7062.198882037,
+  "totalPosts": 40,
+  "posts": [
+    {
+      "index": 1,
+      "id": "expandedjScpste1SmGLCDxbMqhC1u2izGtWwNTX1uhP9cXGP6sFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Bhavya Anand",
+      "headline": "Co-founder & CTO @ Provio | Building in AI, Tech & Hiring",
+      "links": [
+        "https://www.linkedin.com/in/bhavya-anand19/",
+        "https://www.linkedin.com/company/flexintl/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgga_C-Kf&urlhash=5qJJ&mt=clG7PRaTU_gl-RNAQ-fOTQ1JUkenAuODT6bB9HBsb_3pp-TbWdYCBzMs1H3Ky57-qXs-S4zqG-RqIxoNAPRNB4HUe8IG2K8hCe0as5OtMCzmQAork9TQBAUSMrU&isSdui=true",
+        "https://www.linkedin.com/company/provio-in/",
+        "https://www.linkedin.com/in/sauravkumar2208/",
+        "https://www.linkedin.com/in/raj-abhishek-508722254/",
+        "https://www.linkedin.com/in/krishna-pratap-singh07/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Bhavya Anand     \u2022 1st  Co-founder & CTO @ Provio | Building in AI, Tech & Hiring   22m \u2022   Flex is Hiring | Associate Software Engineer Looking to start your software engineering career with a global technology company? This opportunity i...",
+      "fullText": "Feed post\n\nBhavya Anand\n\n \n \u2022 1st\n\nCo-founder & CTO @ Provio | Building in AI, Tech & Hiring \n\n22m \u2022 \n\nFlex is Hiring | Associate Software Engineer\nLooking to start your software engineering career with a global technology company? This opportunity is open to freshers and recent graduates.\nRole: Associate Software Engineer\nLocation: Chennai\nEmployment Type: Full-time\n\nFreshers & recent graduates can apply.\nApply here:\nhttps://lnkd.in/gga_C-Kf\n\nProvio Saurav Kumar Raj Abhishek Krishna Pratap Singh\n\n#Hiring #FreshersJobs #SoftwareEngineer #AssociateSoftwareEngineer #FresherJobs #ChennaiJobs #SoftwareEngineering #AI #GenerativeAI #TechJobs #CampusHiring #Provio\n\u2026 more\n\n3 reactions\n3\n\n1 repost\n1 repost\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 2,
+      "id": "expandedemOgVmMr-EwlyWB6BWZ52ZKNgmhpIuYZ9gdUuKje_NAFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Lilly Obesity International",
+      "headline": "Promoted",
+      "links": [
+        "https://www.linkedin.com/showcase/lilly-obesity-international/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Lilly Obesity International  15,691 followers  Promoted  Follow  Next destination? Lilly\u2019s booth! Join us at our booth at #EASD2026 as we celebrate 150 years of scientific progress. We look forward to seeing you there!  80 reactions 80  2 ...",
+      "fullText": "Feed post\n\nLilly Obesity International\n\n15,691 followers\n\nPromoted\n\nFollow\n\nNext destination? Lilly\u2019s booth! Join us at our booth at #EASD2026 as we celebrate 150 years of scientific progress. We look forward to seeing you there!\n\n80 reactions\n80\n\n2 reposts\n2 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 3,
+      "id": "expanded8FdCjWT7wkNGKFl7VsH2hqnVUOmM2bC3oVIjBhTH4OkFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/cathaoiragnew/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdcscekjR&urlhash=4yiY&mt=pErj2mNmcB749mNanFFMm2r8fNYH-kQ6uuCp-QQRnInHoMygF44TVH9iouMkfd2PtEfIrvSD8Rg_zrhX9cD5hoWnPnbNeigIhEDCR5t6Oxv-owFdLn0e--OnQ6I&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Cathaoir Agnew     \u2022 2nd  Computer Vision & ML Engineer @ Akara | PhD in AI & ML | Object Detection, Tracking, Video Understanding  1d \u2022   Follow  After segmenting teeth on 3D surface scans, I wanted to look beneath the surface....",
+      "fullText": "Feed post\n\nSuggested\n\nCathaoir Agnew\n\n \n \u2022 2nd\n\nComputer Vision & ML Engineer @ Akara | PhD in AI & ML | Object Detection, Tracking, Video Understanding\n\n1d \u2022 \n\nFollow\n\nAfter segmenting teeth on 3D surface scans, I wanted to look beneath the surface. \ud83e\uddb7\n\nA CBCT scan is a 3D X-ray of the jaw: bone, tooth roots, the pulp inside each tooth and the nerve canals running through the jaw. ToothFairy3 is a public dataset of 532 of these scans, labelled voxel by voxel into 77 classes, and I dug into U-Mamba2, the solution that won both tasks of the ToothFairy3 challenge at MICCAI 2025.\n\nThe video walks through a real scan:\n1\ufe0f\u20e3 A CBCT scan is a stack of slices, 262 of them here, 0.3 mm apart. Thats 68.7 million voxels, too many for a 3D network in one go, so U-Mamba2 works on 160 \u00d7 288 \u00d7 288 patches and slides across the scan.\n2\ufe0f\u20e3 Every voxel is labelled: jaws, each tooth by number, sinuses, pharynx, crowns and implants.\n3\ufe0f\u20e3 ToothFairy3 added the pulp of every tooth and three thin nerve canals. In this scan those canals cover 136 to 819 voxels each, against 1.4 million for the lower jawbone, so U-Mamba2 weights them 10\u00d7 in its loss.\n4\ufe0f\u20e3 The network is nnU-Nets residual CNN U-Net with one addition. A 1 \u00d7 160 \u00d7 288 \u00d7 288 patch goes down the encoder to a 5 \u00d7 9 \u00d7 9 grid of 320-channel features. A Mamba2 layer reads that grid as a sequence of 405 tokens, carrying a small state from token to token, so features pick up context from across the patch, not just their neighbourhood. The decoder brings it back up to 47 class scores per voxel, and the argmax gives the label.\n\nOne thing stood out to me:\n\ud83d\udd39 Domain knowledge did a lot of the work. The architecture change is a single layer. Around it: label smoothing between related structures, extra weight for tiny ones, label-aware mirroring, and removing predicted blobs smaller than almost any real one in the training labels. In the papers validation, that last step alone added 0.016 to 0.035 Dice to every model tested.\n\nFull write-up, with architecture diagrams and an interactive 3D viewer of the scan \ud83d\udc47\nhttps://lnkd.in/dcscekjR\n\n#ComputerVision #DeepLearning #3DComputerVision #MedicalImaging #3DSegmentation #MachineLearning #ArtificialIntelligence\n\u2026 more\n\n56 reactions\n56\n\n2 comments\n2 comments\n\n\u2022\n\n6 reposts\n6 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 4,
+      "id": "expandedzU0J_KIqis_lbHcZ7g3kRudNUULpfkZtna0ha1w3QhgFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Shubhansh Pathak likes this",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/shubhansh-pathak-873980294/",
+        "https://www.linkedin.com/in/-sachin-yadav-/",
+        "https://www.linkedin.com/safety/go/?url=http%3A%2F%2FB%2ETech&urlhash=4dZl&mt=1lkyqap4CF4gIuTA6LfWx89ClkS0Mk6boy2nP_kEE9a6N4P7g5BLCF7vzw1N0YDJdtdN5xUtohoR3L7hg6SbRLEuMZl5DoydKW8-Zi3YlzNYD2Akt6wdAN-pQeo&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Shubhansh Pathak likes this  Sachin Yadav     \u2022 2nd  Electrical Engineering Student |  pursuing B.Tech at RR Institute of Modern Technology, Lucknow | AKTU | Interested in Power Systems, Control Systems & Electrical Machines \u26a1  5h \u2022   Conn...",
+      "fullText": "Feed post\n\nShubhansh Pathak likes this\n\nSachin Yadav\n\n \n \u2022 2nd\n\nElectrical Engineering Student |  pursuing B.Tech at RR Institute of Modern Technology, Lucknow | AKTU | Interested in Power Systems, Control Systems & Electrical Machines \u26a1\n\n5h \u2022 \n\nConnect\n\n\ud83c\udf89 Excited to Share My Placement Achievement!\nI am delighted to share that I have been selected at LearnFLU with a package of 4\u20138 LPA. \ud83c\udfaf\nI am truly grateful to RR Group of Institutions for providing me with this opportunity and for the continuous guidance and support throughout my journey.\nAs a B.Tech Electrical Engineering student (Batch 2027), this achievement motivates me to keep learning, improving my technical skills, and taking on new challenges.\nA special thanks to my teachers, mentors, friends, and family for their constant support and encouragement. \ud83d\ude4f\nExcited for this new journey and the opportunities ahead! \ud83d\ude80\n#Placement #LearnFLU #RRGroupOfInstitutions #ElectricalEngineering #BTech #CampusPlacement #CareerGrowth #StudentAchievement #Batch2027 #Grateful\n\u2026 more\n\nShubhansh Pathak and 6 others reacted\nShubhansh Pathak and 6 others\n\n1 comment\n1 comment\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 5,
+      "id": "expanded0KJn-sDtBrF8f67DMGsf-c0seIEuqQSM7626m7mG9sIFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/sehajdeep-singh-b41379243/",
+        "https://www.linkedin.com/in/rajdeepsinghsohal/",
+        "https://www.linkedin.com/in/sehgalishan/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgXr3R-E4&urlhash=pS_j&mt=IHZu3RGwKw_Fo6m8j8LvtzFGjxEHIlponi0tk0k3C9f5ZzOxjuEflJy2L49H5hjoFE3QNj9KJzVFt4SLytTl6yJ3If3GuYnVVe_Iey-zdtAa251_N-tflxJwn9c&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Sehajdeep Singh   \u2022 3rd+  learning and building robots.  1d \u2022 Edited \u2022   Follow  Meet Piper, my new mobile robot! Piper is a differential-drive mobile robot with depth vision, and soon I plan to give it its own intelligence as w...",
+      "fullText": "Feed post\n\nSuggested\n\nSehajdeep Singh\n\n \u2022 3rd+\n\nlearning and building robots.\n\n1d \u2022 Edited \u2022 \n\nFollow\n\nMeet Piper, my new mobile robot!\nPiper is a differential-drive mobile robot with depth vision, and soon I plan to give it its own intelligence as well.\nI started building Piper a couple of weeks ago  to learn more about mobile robotics and explore Edge AI for autonomous robots.\nThe laptop inside the middle compartment currently acts as the robot\u2019s main computing unit. It is also running RTAB-Map for SLAM and mapping. The 3D point-cloud map in the video is currently a bit noisy because I was intentionally driving the robot with some jerky movements and haven\u2019t tuned the default parameters yet. \n\nCurrent architecture :\nROS 2 + micro-ROS for the robot software architecture. The ESP32 runs the micro-ROS client, which communicates with the micro-ROS Agent running on the laptop over Wi-Fi using UDP.\nPlanetary Geared DC motor with encoders for wheel odometry\nMPU6050 IMU for improving odometry through sensor fusion\nOAK-D Pro for depth perception and visual information\nOAK-D Pro's onboard 9-axis IMU can also be used to improve state estimation\nRTAB-Map for SLAM and 3D mapping\nVisual odometry is also being performed as part of the RTAB-Map pipeline.\n\nThe next step is to improve the robot's state estimation, tune the SLAM pipeline, and start experimenting with edge AI for perception and autonomous navigation.\nStill a lot to build, but Piper is starting to look like a real robot. \n\nHuge Thanks to my mentor Rajdeep Singh Sohal and Ishan Sehgal for their support and guidance.\n\ngithub repo :\nhttps://lnkd.in/gXr3R-E4\n\n#Robotics #ROS2 #microROS #MobileRobotics #RTABMap #SLAM #EdgeAI #ComputerVision #OAKD #RoboticsEngineering #AutonomousRobots\n\u2026 more\n\n125 reactions\n125\n\n13 comments\n13 comments\n\n\u2022\n\n3 reposts\n3 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 6,
+      "id": "expandedkH66K2-e3AzS1RYhLTOIyHld2bOM5e2us6GjT-nNhWgFeedType_MAIN_FEED_RELEVANCE",
+      "author": "CATL",
+      "headline": "Promoted",
+      "links": [
+        "https://www.linkedin.com/company/contemporary-amperex-technology-gmbh/",
+        "https://www.linkedin.com/company/contemporary-amperex-technology-gmbh/?viewAsMember=true"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  CATL     335,397 followers  Promoted  Follow  Same charger. Different speed? \u26a1 The battery is key. CATL Shenxing III and Qilin III maintain high-power charging across a wide SOC range, reaching 10%\u201397% in just 6m10s. \u2026 more  Same Charger. ...",
+      "fullText": "Feed post\n\nCATL\n\n \n\n335,397 followers\n\nPromoted\n\nFollow\n\nSame charger. Different speed? \u26a1\nThe battery is key. CATL Shenxing III and Qilin III maintain high-power charging across a wide SOC range, reaching 10%\u201397% in just 6m10s.\n\u2026 more\n\nSame Charger. Different Speeds. Why?\n\n10% to 97% in 6m10s. Charge Ahead.\n\n206 reactions\n206\n\n1 repost\n1 repost\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 7,
+      "id": "expanded3xx0CEiVZ0CXBwNccKH8m73aVIFHLcPu8wrmT9xKE4gFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Harsh Rajput likes this",
+      "headline": "1d \u2022",
+      "links": [
+        "https://www.linkedin.com/in/harshrajput45/",
+        "https://www.linkedin.com/company/appsquadz/",
+        "https://www.linkedin.com/in/thanuja-vasam/",
+        "https://www.linkedin.com/in/neha-sharma-28926a291/",
+        "https://www.linkedin.com/in/mukeshrawlani/",
+        "https://www.linkedin.com/in/sanidhya-tiwari-43b48225a/",
+        "https://www.linkedin.com/in/aaditya-jain-131251238/",
+        "https://www.linkedin.com/in/vivekpandeybdm/",
+        "https://www.linkedin.com/in/sunny-prajapati-988ba5259/",
+        "https://www.linkedin.com/in/himanshu-chuphal-13262943/",
+        "https://www.linkedin.com/in/rashmi-ranjan-pradhan-547583232/",
+        "https://www.linkedin.com/in/praveen-ojha-20389727/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Harsh Rajput likes this  AppSquadz     1d \u2022   Follow  As September comes to a close, we take a moment to recognise and celebrate the team members who marked their birthdays this month.  Wishing everyone a very Happy Birthday and a year ahe...",
+      "fullText": "Feed post\n\nHarsh Rajput likes this\n\nAppSquadz\n\n \n\n1d \u2022 \n\nFollow\n\nAs September comes to a close, we take a moment to recognise and celebrate the team members who marked their birthdays this month.\n\nWishing everyone a very Happy Birthday and a year ahead filled with continued growth, success, and new milestones.\n\nThanuja Vasam Neha Sharma Mukesh Rawlani Sanidhya Tiwari Aaditya Jain Vivek Pandey Sunny Prajapati Himanshu Chuphal Rashmi Ranjan Pradhan Praveen Ojha\n\n#AppSquadz #Birthday #HappyBirthday #SeptemberBirthday #Celebration\n\u2026 more\n\nBirthday Post\n\n\u00b7\n\n4 pages\n\nHarsh Rajput and 24 others reacted\nHarsh Rajput and 24 others\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 8,
+      "id": "expandedV8xfZzWGduHbvfHweGjhdPNu48cXIR-qVV3IOD9aAJ4FeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/javier-medel/",
+        "https://www.linkedin.com/company/meta/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Javier Medel, MSc     \u2022 3rd+  Applied AI Engineer @ MNP | Agentic AI \u2022 LLMs \u2022 RAG Systems  11h \u2022   Follow  \ud83e\udde0\ud83d\udcdd Meta just introduced Context Language Models (CLMs) - language models that manage their own context instead of just ap...",
+      "fullText": "Feed post\n\nSuggested\n\nJavier Medel, MSc\n\n \n \u2022 3rd+\n\nApplied AI Engineer @ MNP | Agentic AI \u2022 LLMs \u2022 RAG Systems\n\n11h \u2022 \n\nFollow\n\n\ud83e\udde0\ud83d\udcdd Meta just introduced Context Language Models (CLMs) - language models that manage their own context instead of just appending to it. \ud83d\ude80\n\nBut here\u2019s the interesting part:\n\nThe model isn't just reading its context. It can rewrite it.\n\nThe context is exposed as a file, and the model edits it with plain Bash or Python - summarize, delete, reorganize, back up.\n\n\ud83d\udd22 The numbers (zero-shot, no training):\n\u2192 +11.4% accuracy with 21.5% fewer FLOPs on Browse Comp-Plus\n\u2192 +5% score with 59% fewer FLOPs on 12-hour Edge Bench\n\u2192 65% greater speedup on a 24-hour agent swarm at the same compute\n\n\ud83d\udd2c What emerged on its own:\n\u2192 Progress scoreboards\n\u2192 A private \u201cnotes\u201d chat role\n\u2192 Subagents spawned by creating a file\n\n\ud83d\udcc8 And its learnable:\n\u2192 Evolved skills: up to +35.9 pts on ContextBench\n\u2192 RL: +47.6% for Qwen3.5-9B\n\u2192 Suffix Cache Reuse: 35% less server compute\n\nThe bigger idea:\nContext engineering is moving from hand-designed rules \u2192 letting the model decide what to keep, rewrite, or forget.\n\nWhat happens when models become their own context engineers? \ud83e\udd14\n\n#Meta #AI #LLM #AIAgents #ContextEngineering #MachineLearning\n\u2026 more\n\n142 reactions\n142\n\n8 comments\n8 comments\n\n\u2022\n\n13 reposts\n13 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 9,
+      "id": "expanded2L9UWF5LJIRJh32JSZu_5seaU1beUTNbG9O7U5qSWcIFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Startup Incubation and Innovation Centre, IIT Kanpur (incubatoriitk)",
+      "headline": "From Waste to Asset: What Global Battery Circularity Teaches Founders About Becoming Bankable",
+      "links": [
+        "https://www.linkedin.com/company/incubatoriitk/",
+        "https://www.linkedin.com/in/anu-kadyan-sipa/",
+        "https://www.linkedin.com/in/neelakshi-ph-d-7ba63911b/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdHbuB4vV&urlhash=xSU9&mt=Ws9iNncrQ8RhfdCweQJ7qN7TQ3ZIqukaD0TAUcJ3z9Mc1s_hW7NDmcyyAceU9aJw-FHEwifFzZ2KeMngFHOm-mrEtHe2Zi5V8APw0dtjO399ip8K35umsZ-tQMc&isSdui=true",
+        "https://www.linkedin.com/school/indian-institute-of-technology-kanpur/",
+        "https://www.linkedin.com/in/agrawalmanindra/",
+        "https://www.linkedin.com/in/air-marshal-philip-thomas-avsm-vm-4036b233/",
+        "https://www.linkedin.com/in/deepu-philip-307b386a/",
+        "https://www.linkedin.com/in/ashutoshagnihotri/",
+        "https://www.linkedin.com/in/piyush-mishra-43b80830/",
+        "https://www.linkedin.com/in/deepti-chugh-78895019/",
+        "https://www.linkedin.com/in/surbhi-awasthi-4479941b3/",
+        "https://www.linkedin.com/in/amruta-gadge-18192415a/",
+        "https://www.linkedin.com/in/sarvesh-sonkar/",
+        "https://www.linkedin.com/in/gopal-krishna-dixit-3786286b/",
+        "https://www.linkedin.com/in/sarthak-srivastava-63899b250/",
+        "https://www.linkedin.com/in/dr-amrita-de-adhikari-94857279/",
+        "https://www.linkedin.com/in/sugandha-maheshwari-90190b1b3/",
+        "https://www.linkedin.com/in/shivanisingh88/",
+        "https://www.linkedin.com/in/hritangita/",
+        "https://www.linkedin.com/in/rashmi02000/",
+        "https://www.linkedin.com/in/yuvika-singh-3b6a20271/",
+        "https://www.linkedin.com/in/ashish-sharma-465429112/",
+        "https://www.linkedin.com/in/swati-tyagi-954763217/",
+        "https://www.linkedin.com/in/rahul-thakur-090078104/",
+        "https://www.linkedin.com/in/tanya-singh42/",
+        "https://www.linkedin.com/in/haritima-sharma/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Startup Incubation and Innovation Centre, IIT Kanpur (incubatoriitk)  2h \u2022 Edited \u2022   From Waste to Asset: What Global Battery Circularity Teaches Founders About Becoming Bankable  How can circular-economy startups turn waste into valuable...",
+      "fullText": "Feed post\n\nStartup Incubation and Innovation Centre, IIT Kanpur (incubatoriitk)\n\n2h \u2022 Edited \u2022 \n\nFrom Waste to Asset: What Global Battery Circularity Teaches Founders About Becoming Bankable\n\nHow can circular-economy startups turn waste into valuable assets and build globally scalable businesses?\n\nAs part of the Green Compass Series, the CleanTech Domain, Startup Incubation and Innovation Centre, IIT Kanpur (incubatoriitk) presents the next session under Green Frontier Connect, bringing global perspectives to green innovators and entrepreneurs.\n\nJoin us for an insightful discussion on battery circularity across the EU, India, China, and the US, exploring market infrastructure, material traceability, buyer trust, and building bankable business models.\n\nSpeaker: Dr. Anu Kadyan, PhD, Climate Knowledge Fellow, Columbia Business School | MPA Candidate, @Columbia | SIPA\nModerator: Dr. Neelakshi, Ph. D., Head, CleanTech & GreenTech Domain , SIIC, IIT Kanpur\n\u00a0\n Date: 7 October 2026\nTime: 5:30 PM to 6:30 PM IST\nMode: Online\n\nJoin us to explore how circular innovation can translate into scalable, globally relevant business opportunities.\n\nScan the QR code or register using the link below.\nhttps://lnkd.in/dHbuB4vV\n\n#GreenCompassSeries #GreenFrontierConnect #CleanTech #BatteryCircularity\n\nIndian Institute of Technology Kanpur | Manindra Agrawal | Air Marshal Philip Thomas AVSM VM | Deepu Philip | Ashutosh Agnihotri | Piyush Mishra | Deepti Chugh | Surbhi Awasthi | Amruta Gadge | Sarvesh Sonkar | | Gopal Krishna Dixit | Sarthak Srivastava | Dr. Amrita De Adhikari | Sugandha Maheshwari | Shivani Singh | Hritangita Mishra | Rashmi Shukla | Yuvika Singh | Ashish Sharma | Swati Tyagi | Rahul Thakur | Tanya Singh | Haritima Sharma\n\u2026 more\n\n9 reactions\n9\n\n5 reposts\n5 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 10,
+      "id": "expandedt1KMXY9dIh7XMX0bosLNw_utDrfbnWiWA0RLb2dztjgFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Mitsubishi Corporation",
+      "headline": "Promoted",
+      "links": [
+        "https://www.linkedin.com/company/mitsubishi-corporation/",
+        "https://www.ft.com/partnercontent/mitsubishi-corporation/c-suites-unplugged-katsuya-nakanishi.html?utm_source=TW&utm_medium=investing&utm_content=paid&utm_id=904265256&utm_medium=paid-social&utm_source=linkedin"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Mitsubishi Corporation     167,565 followers  Promoted  Follow  Change creates opportunity. From geopolitical uncertainty to AI, change has shaped how I think about business and leadership. For corporations with diverse capabilities, chang...",
+      "fullText": "Feed post\n\nMitsubishi Corporation\n\n \n\n167,565 followers\n\nPromoted\n\nFollow\n\nChange creates opportunity.\nFrom geopolitical uncertainty to AI, change has shaped how I think about business and leadership.\nFor corporations with diverse capabilities, change creates opportunities to connect businesses in new ways and rethink what is possible.\n\u2026 more\n\nRead more from Mitsubishi Corporation CEO Katsuya Nakanishi on leadership and transformation.\nRead more from Mitsubishi Corporation CEO Katsuya Nakanishi on leadership and transformation.\n\nft.com\n\nLearn more\n\n3,068 reactions\n3,068\n\n22 comments\n22 comments\n\n\u2022\n\n35 reposts\n35 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 11,
+      "id": "expandedUPAxThNjTNFnbRO5xXKSU9I8bL-w2E4b86IFo-UThjAFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/sathishlella/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgSbFZaQy&urlhash=qBHv&mt=lxqx3l39YgHYkXJY34EdHHYserSxiAVBjMCVspNwOd42kTvJo9Zns3Jc_vt1xKYo3IeMPu4IT_75Et4nYv9GJLpTdYvtDpHOyYkIi_hYoxJ_lnlD2APtzLoZFMk&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Sathish Lella     \u2022 3rd+  AI Engineer \u2022 Multi-Agent Systems & RAG \u2022 Published in CRC Press & Springer \u2022 Certified Reviewer \u2022Researcher \u2022 Certified ESG Reporting Consultant   4d \u2022 Edited \u2022   Follow  Most portfolios show what you\u2019...",
+      "fullText": "Feed post\n\nSuggested\n\nSathish Lella\n\n \n \u2022 3rd+\n\nAI Engineer \u2022 Multi-Agent Systems & RAG \u2022 Published in CRC Press & Springer \u2022 Certified Reviewer \u2022Researcher \u2022 Certified ESG Reporting Consultant \n\n4d \u2022 Edited \u2022 \n\nFollow\n\nMost portfolios show what you\u2019ve built.\n\nI wanted mine to show how I think.\n\nSo I designed an interactive 3D forest experience where visitors can explore my journey as an AI Engineer - through projects, experiments, research, and the systems behind them.\n\nI build:\n\u2022 LLM applications and AI agents\n\u2022 RAG, GraphRAG, hybrid search and evaluation systems\n\u2022 Document intelligence platforms\n\u2022 Secure multi-tenant SaaS products\n\u2022 End-to-end AI solutions from idea to deployment  \n\nThe portfolio itself is built with WebGL, Three.js, JavaScript, custom animations, and a little storytelling.\n\nBecause a portfolio should feel less like a r\u00e9sum\u00e9\u2026\n\u2026and more like an experience.\n\nExplore it here: https://lnkd.in/gSbFZaQy\n\nI\u2019d love to know: what is the most memorable portfolio you\u2019ve ever visited?\n\n#AIEngineering #ArtificialIntelligence #MachineLearning #GenerativeAI #WebDevelopment #ThreeJS #Portfolio #SoftwareEngineering #AIAgents #RAG #claude #opus5.5 #sathishlella\n\u2026 more\n\n147 reactions\n147\n\n18 comments\n18 comments\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 12,
+      "id": "expandedJYcAsiZ9nd9P3OnlwPjLFJ2JxDXvdykiRhTSL9cckb4FeedType_MAIN_FEED_RELEVANCE",
+      "author": "Shubhansh Pathak likes this",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/shubhansh-pathak-873980294/",
+        "https://www.linkedin.com/in/raja-kumar-bb5a27300/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Shubhansh Pathak likes this  Raja Kumar   \u2022 2nd  \u201cAspiring Mechanical Engineer | Mechanical Design & Manufacturing Enthusiast | AutoCAD & SolidWorks | Passionate about Innovation & Engineering Solutions  1h \u2022 Edited \u2022   Connect  \ud83c\udf93 Another ...",
+      "fullText": "Feed post\n\nShubhansh Pathak likes this\n\nRaja Kumar\n\n \u2022 2nd\n\n\u201cAspiring Mechanical Engineer | Mechanical Design & Manufacturing Enthusiast | AutoCAD & SolidWorks | Passionate about Innovation & Engineering Solutions\n\n1h \u2022 Edited \u2022 \n\nConnect\n\n\ud83c\udf93 Another Milestone in My Mechanical Engineering Journey!\n\nI\u2019m pleased to share that I have successfully completed the 8-week NPTEL course on \u201cRefrigeration and Air-Conditioning\u201d, offered through NPTEL in association with IIT Madras, during July\u2013September 2026.\n\n\ud83d\udcda This course has strengthened my understanding of Refrigeration & Air-Conditioning systems and added valuable technical knowledge to my Mechanical Engineering journey.\n\nBeing able to learn through an IIT Madras\u2013associated NPTEL course was a valuable academic experience, and I\u2019m grateful for the opportunity to expand my technical knowledge beyond the classroom.\n\nLooking forward to applying this learning and continuously improving my technical and professional skills. \u2699\ufe0f\n\nLearn \u2022 Grow \u2022 Improve \u2022 Engineer \ud83d\ude80\n\n#IITMadras #NPTEL #MechanicalEngineering #Refrigeration #AirConditioning #Engineering #ContinuousLearning #SkillDevelopment\n\u2026 more\n\nShubhansh Pathak and 4 others reacted\nShubhansh Pathak and 4 others\n\n2 comments\n2 comments\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 13,
+      "id": "expandedLvEnoV1kra9pA8C4n6RyRUjSN_MTh5s18CrWS-dxLW8FeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/owen-sweeney-a1313018a/",
+        "https://www.linkedin.com/company/wavestone/",
+        "https://www.linkedin.com/company/openhands-ai/",
+        "https://www.linkedin.com/safety/go/?url=http%3A%2F%2FSKILL%2Emd&urlhash=acfU&mt=wXKftP_jbZs8FiA_2iOdWW8vwfC62houZaidHaGW9HOL46TxcSx2lnkIuVm2d4JyRxIQqJ5IfDX9fUFGJvviEstc4gCIri37QLRSjo7xw8oGW8avG1hTfMcfzx4&isSdui=true",
+        "https://www.linkedin.com/in/paulbarbaste/en/",
+        "https://www.linkedin.com/in/tristan-darrigol/",
+        "https://www.linkedin.com/in/germain-vu/",
+        "https://www.linkedin.com/in/tom-wiltberger/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgVQbfcK8&urlhash=6H7N&mt=M6CSZkZo7XbzHkwMmvrxCBsn3gY-KtcTC8eZ4RXsBD_Eeb4NvwZ6O0ETPGI_2ZGQXR0MVWOXQYnOdHlQp0gqfTU5oo65PeDddqcaWxb4nqkJoCEKnzMhx3gDU4s&isSdui=true",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Farxiv%2Eorg%2Fabs%2F2609%2E00006v1&urlhash=-chI&mt=c5HH2GVNx7Oh4e_Vj-N8Pe9lLm4fhs5ZgNaM4vYrOkYaMv0hSPW6ZIqcaVqubZDYWjNkPMedEeYHPh_v0jELDcoqX4x6jw79GdcJP2QzzsVySECNF7Vv89oJQ_8&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Owen Sweeney     \u2022 3rd+  #1 OpenHands Fan | AI @ OpenHands  2d \u2022 Edited \u2022   Follow  Shoutout to Wavestone AI Lab\ud83d\udc4f  Their new paper, \"Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents,\" reverse-engineered...",
+      "fullText": "Feed post\n\nSuggested\n\nOwen Sweeney\n\n \n \u2022 3rd+\n\n#1 OpenHands Fan | AI @ OpenHands\n\n2d \u2022 Edited \u2022 \n\nFollow\n\nShoutout to Wavestone AI Lab\ud83d\udc4f\n\nTheir new paper, \"Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents,\" reverse-engineered the source code of 11 coding agents: Claude Code, Codex CLI, Gemini CLI, OpenHands, Aider, OpenCode and more.\n\nTheir big takeaway: in 2026, coding agent harnesses went from tools to platforms.\n\nOpenHands is their example. It's the one harness that can run Claude Code, Codex, or Gemini CLI as interchangeable backends, so you're not betting your eng org on one model vendor.\n\nA few other things they called out:\n\n\u25b6 Event-sourced conversation engine with a persistent event log\n\u25b6 Parallel delegation across agents\n\u25b6 Defense-in-depth security model\n\u25b6 MCP + SKILL.md support, which are fast becoming the industry standards\n\n\nThanks for the shoutout Paul Barbaste, Tristan Darrigol, Germain Vu & Tom Wiltberger\n\nLink to paper: https://lnkd.in/gVQbfcK8\n\u2026 more\n\nHarness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems\nHarness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems\n\narxiv.org\n\n187 reactions\n187\n\n2 comments\n2 comments\n\n\u2022\n\n23 reposts\n23 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 14,
+      "id": "expandedAfcM02L16YQL_nTOEWcFFEMgfHuUbs-ZWJzZnuBG2sQFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Carmelo Anthony",
+      "headline": "Former NBA Athlete | 3x Olympic Gold Medalist | Producer | Investor | Entrepreneur | Philanthropist | Bestselling Author",
+      "links": [
+        "https://www.linkedin.com/in/carmelo-anthony/",
+        "https://www.linkedin.com/company/linkedin/posts/",
+        "https://www.linkedin.com/in/sarahb2/",
+        "https://www.linkedin.com/in/kandacebarker/",
+        "https://www.linkedin.com/in/mderella/",
+        "https://www.linkedin.com/in/skj21/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fp%2Fe3jcqBm7%3Fli_fat_id%3Db5f7ee6d-19a1-448d-ad5d-d810c3391a55&urlhash=XO5n&mt=DcpaJKF5FswdiE0C-Eup6sEc30VJird_c0coGo0gXLsIZq2Ep4YS26tDilgq6K5NkwIRZbN9cb4D9ubCrlwDuqcwHPRrNW9r9N2mFhT1N7EoxbjxMNZZSqGLpjCE8JMGradxqJxJYux_5bsRLIWV8nX-cjrv63sP_8FsRkbPKhOcv8Tc7l9L0LmNCICJpb3V9AolMXjaCgjqy9NK&isSdui=true"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Carmelo Anthony     \u2022 3rd+  Former NBA Athlete | 3x Olympic Gold Medalist | Producer | Investor | Entrepreneur | Philanthropist | Bestselling Author  Promoted \u2022 Partnership with LinkedIn  Follow  When it comes to growth, I\u2019ve learned it\u2019s ...",
+      "fullText": "Feed post\n\nCarmelo Anthony\n\n \n \u2022 3rd+\n\nFormer NBA Athlete | 3x Olympic Gold Medalist | Producer | Investor | Entrepreneur | Philanthropist | Bestselling Author\n\nPromoted \u2022 Partnership with LinkedIn\n\nFollow\n\nWhen it comes to growth, I\u2019ve learned it\u2019s not always about being the fastest or loudest. At Cannes, I had the privilege of sharing the stage with marketing leaders: Sarah Bruning Meron, Kandace B., Matthew Derella, and NBA player Spencer Keith Jones, to discuss what it means to build a community and tell authentic stories.\n\n Watch the full session here: https://lnkd.in/p/e3jcqBm7\n\u2026 more\n\n14,692 reactions\n14,692\n\n963 comments\n963 comments\n\n\u2022\n\n394 reposts\n394 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 15,
+      "id": "expandedB7SBbt30L7tzv6_WjCLxdHhRwXIDDORdXPBFH70xDLwFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Recommended for you",
+      "headline": "Co-Founder of Periodic Labs",
+      "links": [
+        "https://www.linkedin.com/in/liam-fedus-26547811/",
+        "https://www.linkedin.com/in/davidbombal/",
+        "https://www.linkedin.com/in/divyanshtiwariofficial/",
+        "https://www.linkedin.com/mynetwork/discover-hub/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Recommended for you  Liam Fedus   Co-Founder of Periodic Labs  Related to people you are interested in  Follow  David Bombal   Author, Instructor and YouTuber - I've now reached 30,000 connections on LinkedIn and am unable to accept new co...",
+      "fullText": "Feed post\n\nRecommended for you\n\nLiam Fedus \n\nCo-Founder of Periodic Labs\n\nRelated to people you are interested in\n\nFollow\n\nDavid Bombal \n\nAuthor, Instructor and YouTuber - I've now reached 30,000 connections on LinkedIn and am unable to accept new connections. Please follow me instead.\n\nPeople who are in the Computer and Network Security industry also follow these people\n\nFollow\n\nDivyansh Tiwari \n\nPhD Semiconductor Devices | IISc Bangalore | Ex-ASIC Engineer @ Juniper | Sci/Tech Influencer\n\nBased on your profile\n\nFollow\nShow more"
+    },
+    {
+      "index": 16,
+      "id": "expandedizMQoOFU_1nhZxHxwH5IlChQjPDCVrgiMoAti1iGIAsFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/pavan-joshi-177873192/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FeS6FtPWt&urlhash=zm3w&mt=re9Gq873oneBU-R6k7oQsfLVSpFLydHVq-ROrzy-EWn9H51FJRzHl2IQomnSp2IkqV_LtsgQG45AqW2WFNO26zZvfhbN6ZyXXDmUNa-Bh6B2dBpsMCGggaimdD4&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Pavan Joshi     \u2022 3rd+  B.tech CE || Software Engineer @Alby (remote) || GSoC2021 @CircuitVerse || GSOC'2022 Mentor @CircuitVerse || SOB'2022 @Alby || core team member @CircuitVerse || SOB'2023 @Alby || open source enthusiast  2...",
+      "fullText": "Feed post\n\nSuggested\n\nPavan Joshi\n\n \n \u2022 3rd+\n\nB.tech CE || Software Engineer @Alby (remote) || GSoC2021 @CircuitVerse || GSOC'2022 Mentor @CircuitVerse || SOB'2022 @Alby || core team member @CircuitVerse || SOB'2023 @Alby || open source enthusiast\n\n2d \u2022 Edited \u2022 \n\nFollow\n\nGSOC Proposal archive for 2026, 2025, 2024, 2023, 2023. \n\nmight be helpful for getting inspiration on how to write quality proposals. \n\n\n\ud83d\udd17 https://lnkd.in/eS6FtPWt\n\n\n\n#GSoC2027 #GSoC #GoogleSummerOfCode #OpenSource #OpenSourceContribution #GitHub #Programming #SoftwareDevelopment #Developers #TechCommunity\n\u2026 more\n\n19 reactions\n19\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 17,
+      "id": "expandede_AXfYAx5R508NvbpOw3hVcgJ_uvafiWZ_V_a_V6rasFeedType_MAIN_FEED_RELEVANCE",
+      "author": "CloudSEK",
+      "headline": "What we brought back from GISEC GLOBAL was clarity on what security leaders need most.",
+      "links": [
+        "https://www.linkedin.com/company/cloudsek/",
+        "https://www.linkedin.com/company/gisec-global/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  CloudSEK     7h \u2022   What we brought back from GISEC GLOBAL was clarity on what security leaders need most.  We heard CISOs talk about the same pressures in different ways: too much noise, too little context, growing third-party exposure, A...",
+      "fullText": "Feed post\n\nCloudSEK\n\n \n\n7h \u2022 \n\nWhat we brought back from GISEC GLOBAL was clarity on what security leaders need most.\n\nWe heard CISOs talk about the same pressures in different ways: too much noise, too little context, growing third-party exposure, AI-driven threats, and the constant challenge of knowing what actually needs attention.\n\nOur conversations were about turning that complexity into something useful \u2014 better visibility, earlier warning, stronger prioritisation, and intelligence teams can actually act on.\n\nThat\u2019s what we took away from GISEC 2026.\nGood conversations. Real problems. Practical answers. \n\u2026 more\n\n19 reactions\n19\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 18,
+      "id": "expandedTG9SvoHmHAlBsDmVg7Xt8ngZnWaBKmwVid124tzm_iwFeedType_MAIN_FEED_RELEVANCE",
+      "author": "LuxpowerTek",
+      "headline": "Promoted",
+      "links": [
+        "https://www.linkedin.com/company/luxpowertek/",
+        "https://www.linkedin.com/company/luxpowertek/?utm_id=875460006&utm_medium=paid-social&utm_source=linkedin"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  LuxpowerTek     43,460 followers  Promoted  Follow  Powering a smarter energy future in India. \ud83d\udc9a Follow LuxpowerTek for the latest products, applications and energy insights. Explore flexible hybrid energy solutions for homes and businesse...",
+      "fullText": "Feed post\n\nLuxpowerTek\n\n \n\n43,460 followers\n\nPromoted\n\nFollow\n\nPowering a smarter energy future in India. \ud83d\udc9a Follow LuxpowerTek for the latest products, applications and energy insights.\nExplore flexible hybrid energy solutions for homes and businesses\u2014from single-phase residential systems to three-phase solutions for larger energy needs.\n\u2026 more\n\nHandle Bigger Energy Demands\n\nFlexible Power\n\nSmarter Energy\n\nBrand Introduction\n\n2,030 reactions\n2,030\n\n6 comments\n6 comments\n\n\u2022\n\n5 reposts\n5 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 19,
+      "id": "expandedRShKn3WL2aDn39KHz8GSka9nVPKzYjebLyN41K4HKjUFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/tianqi-chen-679a9856/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdCheW4KK&urlhash=IIcg&mt=uxLCfXUaiSybejXTN5QmcWxhp0Mijb430B2MEPUlBG9kVXAD2oxck0dup2oxTUHyWYsaR4hSnvRyuxFMYxUQRkLn1btNVETYono_2x8smhkI2d2En8F6K_Fs8Zs&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Tianqi Chen     \u2022 3rd+  Associate Professor at Carnegie Mellon University  1d \u2022 Edited \u2022   Follow  Agents are reinventing the way we program GPUs and everything is moving at a fast pace. How can our curriculum catch up? We plan ...",
+      "fullText": "Feed post\n\nSuggested\n\nTianqi Chen\n\n \n \u2022 3rd+\n\nAssociate Professor at Carnegie Mellon University\n\n1d \u2022 Edited \u2022 \n\nFollow\n\nAgents are reinventing the way we program GPUs and everything is moving at a fast pace. How can our curriculum catch up? We plan to introduce a crash-course on teaching agentic GPU programming in our upcoming ML Systems course, dive into topics on:\n\n- What are useful knowledge context for agent\n- How to leverage compile harness to support agentic improvements\u00a0\n- How agents normally interact with tools and improve upon developments\n- How to enable agent to program modern GPUs like Blackwell and upcoming generations\n\nAs part of our effort, we have also been curating materials and turned them into a free online book: Agentic GPU Programming for MLSys. We\u2019re releasing the book today, alongside a minimal compiler harness that supports many hands-on examples for developers and agents. Check it out below\n\nhttps://lnkd.in/dCheW4KK\n\u2026 more\n\n406 reactions\n406\n\n6 comments\n6 comments\n\n\u2022\n\n16 reposts\n16 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 20,
+      "id": "expandedKAg-kQl4Jeoz1D0O59oF9PkS9eIenQGdeuS668bu918FeedType_MAIN_FEED_RELEVANCE",
+      "author": "Gyanateet Dutta commented",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/gyanateet-dutta-386215192/",
+        "https://www.linkedin.com/in/hyunseok0222/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Gyanateet Dutta commented  Hyunseok (Dan) Oh     \u2022 3rd+  Google Quantum AI, Calibration Engineer at Google  1d \u2022   Follow  A PhD is not just a degree. It is a long stretch of life, full of big changes. In the middle of COVID, I moved from ...",
+      "fullText": "Feed post\n\nGyanateet Dutta commented\n\nHyunseok (Dan) Oh\n\n \n \u2022 3rd+\n\nGoogle Quantum AI, Calibration Engineer at Google\n\n1d \u2022 \n\nFollow\n\nA PhD is not just a degree. It is a long stretch of life, full of big changes. In the middle of COVID, I moved from South Korea to Santa Barbara to start my PhD in Physics. Studying in a new country was hard, especially at a time when nothing felt normal. But time passed, and together we made it through one of the biggest crises of the 21st century.\n\nI was truly lucky to spend six years in the Jayich Lab at UCSB, surrounded by wonderful people and great facilities. I can't imagine finishing this journey without their help and support.\n\nMy personal life changed a lot, too. I met my life partner, Eunseo, and we were blessed with a priceless gift, our daughter Arlene. We've faced many uphill climbs along the way, and some are still ongoing, but we've gotten through so much together.\n\nNow I'm starting a new chapter. I'm happy to share that I've joined Google Quantum AI as a Calibration Engineer! This has been my dream since I was an undergrad, and now it has come true. I'm excited to join such an amazing and talented team, and I'm looking forward to learning a lot and helping build the quantum future.\n\u2026 more\n\nStarting a new position\n\nGyanateet Dutta and 115 others reacted\nGyanateet Dutta and 115 others\n\n31 comments\n31 comments\n\nLike\nComment\nRepost\nSend\n\nGyanateet Dutta Verified Profile 1st\nGyanateet Dutta \n \u2022 1st\n\nEmbodied Vision | Physical World Models | Reinforcement Learning| Scientific AI | Quantum Optimization | Generative Systems| 10 X Hackathon \ud83c\udfc6\n\n1d\n\nCongratulations!!!\ud83c\udf89 \n\n1 reaction\n1\n\nSee 30 more comments"
+    },
+    {
+      "index": 21,
+      "id": "expandedmbTr1pie3OMxgFcGSZSuutxaZmA0lpe6tlzk87MoOZoFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Prosus",
+      "headline": "AI House Amsterdam exists for mornings like this.",
+      "links": [
+        "https://www.linkedin.com/company/prosus/",
+        "https://www.linkedin.com/company/ai-house-amsterdam/",
+        "https://www.linkedin.com/company/unfoldbusiness/",
+        "https://www.linkedin.com/in/saskia-kapinga-2809293/",
+        "https://www.linkedin.com/company/shell/",
+        "https://www.linkedin.com/in/ajhesselink/",
+        "https://www.linkedin.com/in/eurobeinat/",
+        "https://www.linkedin.com/in/charlie-pemberton-48b9884/",
+        "https://www.linkedin.com/in/kimlarsen/",
+        "https://www.linkedin.com/company/ing/",
+        "https://www.linkedin.com/in/laura-peijs-a70ab2a1/",
+        "https://www.linkedin.com/in/darrylsoh/",
+        "https://www.linkedin.com/company/edelman/",
+        "https://www.linkedin.com/in/seanear1ey/",
+        "https://www.linkedin.com/company/teneoglobal/",
+        "https://www.linkedin.com/in/anitavandevelde/",
+        "https://www.linkedin.com/in/madeline-duncan-361787167/",
+        "https://www.linkedin.com/in/rebecca-bryant-35474b8b/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Prosus     6h \u2022 Edited \u2022   AI House Amsterdam exists for mornings like this.  The whole idea behind it is that the hardest questions in AI don't get answered by technology alone. They get answered when you put founders, leaders and the nex...",
+      "fullText": "Feed post\n\nProsus\n\n \n\n6h \u2022 Edited \u2022 \n\nAI House Amsterdam exists for mornings like this.\n\nThe whole idea behind it is that the hardest questions in AI don't get answered by technology alone. They get answered when you put founders, leaders and the next generation in the same room and let them think out loud together.\n\nThat's what happened when UNFOLD, a community of Corporate Affairs and Communications leaders shaping the role of business in society, held its Convene at AI House. \n\nUnfold Co-Chair Saskia Kapinga (Shell) opened, Arent Jan (AJ) Hesselink set the theme, Leading in the Age of AI, around a simple idea: the scarce resource isn't AI, it's the judgement to use it well. Euro Beinat (Prosus) shared what deploying AI at scale across Prosus's 100-plus markets actually looks like. Charlie Pemberton (Prosus), Kim L. (ING) and Laura Peijs (Treasury) explored what it means for organisations and people, while Darryl Soh (Edelman) and Se\u00e1n Earley (Teneo) brought the agency perspective.\n\nWhat followed was multi-generational groups challenging whether existing ways of leading still fit, and a reminder that AI processes information but people provide the meaning.\n\nYou don't build ecosystems by broadcasting. You build them by convening. Thanks to UNFOLD and everyone who brought the room to life.\n\n#Prosus #UNFOLD #Leadership #AI #CorporateAffairs #Commuincations\n\u2026 more\n\nUNFOLD\n\n1w \u2022 \n\nFollow\n\nThe UNFOLD community gathered at AI House Amsterdam last Friday for this year's Convene, hosted by Prosus and led by chair Anita van de Velde - Rayat and co-chair Saskia Kapinga.\n\nSaskia opened the event before Arent Jan (AJ) Hesselink, who recently joined the UNFOLD Board, took us into the morning's theme: Leading in the Age of AI. The discussion was built around a simple idea: in this shift, the scarce resource is not the technology itself, but the judgement and leadership needed to use it well.\n\nEuro Beinat, who leads AI across Prosus and its operations in more than 100 countries, opened with a first-hand view of deploying AI at scale. A panel with Charlie Pemberton, Kim L. and Laura Peijs explored what this shift means for organisations and people, while Darryl Soh and Se\u00e1n Earley brought the agency perspective, where the pressure to adapt is often felt earliest.\n\nThe second half of the morning belonged to the room, where mixed, multi-generational groups explored what this moment means for leadership in our profession, with the NextGen Board bringing the conversations back to share with everyone.\n\nA couple of threads carried through the morning. One was about being willing to question whether existing ways of leading and working still fit, brought into sharper focus by having different generations, who are living these decisions differently, in the same room rather than separate conversations. The other was a reminder that AI can help us process and understand information, but it still takes judgement, context and people to work out what it actually means.\n\nA huge thank you to the team at Prosus AI House, and to Charlie Pemberton, Madeline Duncan and Rebecca Bryant, for hosting us so generously.\n\nWe left with plenty to think about, and with a shared sense that the most important questions are only just beginning.\n\n#UNFOLD #Leadership #AI #CorporateAffairs\n\u2026 more\n\n11 reactions\n11\n\n1 comment\n1 comment\n\n\u2022\n\n1 repost\n1 repost\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 22,
+      "id": "expandedKao3GOyTtopxo4tXUCNuaCFRFf60MPAjrDXdlwZwQNIFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Energy Connects",
+      "headline": "Promoted",
+      "links": [
+        "https://www.linkedin.com/company/energyconnects/",
+        "https://www.linkedin.com/showcase/adipecofficial/",
+        "https://www.linkedin.com/in/rajiv-agarwal-193a5a2b/",
+        "https://www.linkedin.com/company/accenture/",
+        "https://www.linkedin.com/in/nidhalbelayouni/",
+        "https://www.linkedin.com/company/aiqintelligence/",
+        "https://www.linkedin.com/in/anujdhoot/",
+        "https://www.linkedin.com/company/nvidia/",
+        "https://www.linkedin.com/in/kenneth-lim-91622b48/",
+        "https://www.linkedin.com/company/supcon/",
+        "https://www.linkedin.com/in/vincenzomanzoni/",
+        "https://www.linkedin.com/company/tenaris/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fbit%2Ely%2F4xS4kEk%3Fli_fat_id%3Db5f7ee6d-19a1-448d-ad5d-d810c3391a55&urlhash=yeoc&mt=ZvRz1ij2xrTVswE1MjFq5Dh2evcy60-rmv6auFl1bu-l8fHwl8F3k91gGGdJNzDWr3sAPkaBhFojdTj0gA0ZFmgeiaJqX4jOTGdprZYMTi5NPyyGilDkeQsLiOD_Va2BxOogCZ8J_T3sD6t9Mv04EpDTv9QHB4aCIGE19zgpRaszOGLEYZk0G5oFzm6WH1oOcTY_kGN4fpHoVzl9&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Energy Connects  31,309 followers  Promoted  Follow  \ud83d\udce2 UPCOMING WEBINAR: Less than a week to go! \ud83d\udce2  \ud83d\udcc5 7 October 2026 | \ud83d\udd52 3.00 pm GST  AI is accelerating insights across the energy industry, but are organisations adapting fast enough to act...",
+      "fullText": "Feed post\n\nEnergy Connects\n\n31,309 followers\n\nPromoted\n\nFollow\n\n\ud83d\udce2 UPCOMING WEBINAR: Less than a week to go! \ud83d\udce2\n \ud83d\udcc5 7 October 2026 | \ud83d\udd52 3.00 pm GST\n\nAI is accelerating insights across the energy industry, but are organisations adapting fast enough to act on them?\n\nJoin us for \u2018AI and the enterprise\u2019, an exclusive ADIPEC Exhibition and Conference webinar powered by Energy Connects, exploring what it takes to move beyond AI adoption and unlock its full value across the enterprise.\n\nThe discussion will explore closing the gap between insight and action, reshaping roles, evolving operating models and strengthening governance as AI becomes embedded across the enterprise.\n\nHear from industry leaders:\n\n\u27a4 Rajiv Agarwal, Management Consulting Principal Director at Accenture\n\u27a4 Nidhal Belayouni, Director of Data Science at AIQ\n\u27a4 Anuj Dhoot, AI Consulting Client Director \u2013 EMEA at NVIDIA\n\u27a4 Kenneth Lim, Director of Strategy and Marketing, SUPCON International Business at SUPCON\n\u27a4 Vincenzo Manzoni, Data Science Senior Director at Tenaris\n\nOnly a few spots left. Secure yours now: https://bit.ly/4xS4kEk\n\u2026 more\n\nAI and the enterprise\n\n5 pages\n\n1 / 5\n\n1\nDownload Document\n\n22 reactions\n22\n\n1 repost\n1 repost\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 23,
+      "id": "expandedu3_fSOH3BtfXPdgWK_sE39-Aj2Q5gVmVGJomCdIOFOsFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/prerna-rudra-pr2026/",
+        "https://www.linkedin.com/company/festoindia/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Prerna Rudra     \u2022 3rd+  Robotics and embedded systems Enthusiast | Designing, Building & Testing Intelligent Systems  1d \u2022   Follow  \ud835\udc75\ud835\udc90 \ud835\udc98\ud835\udc89\ud835\udc86\ud835\udc86\ud835\udc8d\ud835\udc94. \ud835\udc75\ud835\udc90 \ud835\udc8d\ud835\udc86\ud835\udc88\ud835\udc94. \ud835\udc71\ud835\udc96\ud835\udc94\ud835\udc95 \ud835\udc8b\ud835\udc90\ud835\udc8a\ud835\udc8f\ud835\udc95\ud835\udc94. \ud83d\udc0d  I\u2019ve started building a snake robot, a modular structure w...",
+      "fullText": "Feed post\n\nSuggested\n\nPrerna Rudra\n\n \n \u2022 3rd+\n\nRobotics and embedded systems Enthusiast | Designing, Building & Testing Intelligent Systems\n\n1d \u2022 \n\nFollow\n\n\ud835\udc75\ud835\udc90 \ud835\udc98\ud835\udc89\ud835\udc86\ud835\udc86\ud835\udc8d\ud835\udc94. \ud835\udc75\ud835\udc90 \ud835\udc8d\ud835\udc86\ud835\udc88\ud835\udc94. \ud835\udc71\ud835\udc96\ud835\udc94\ud835\udc95 \ud835\udc8b\ud835\udc90\ud835\udc8a\ud835\udc8f\ud835\udc95\ud835\udc94. \ud83d\udc0d\n\nI\u2019ve started building a snake robot, a modular structure with multiple servo-driven joints designed for serpentine locomotion.\n\nThe current body is basically the skeleton; the head, tail and outer scales are still to come, while I\u2019m working on the gait and joint movements.\n\nThe motion you see here is called a \ud835\udc2c\ud835\udc1e\ud835\udc2b\ud835\udc29\ud835\udc1e\ud835\udc27\ud835\udc2d\ud835\udc22\ud835\udc27\ud835\udc1e \ud835\udc20\ud835\udc1a\ud835\udc22\ud835\udc2d, where a travelling wave moves through the joints to propel the robot forward.\n\nWhy a snake? I\u2019ve always been fascinated by how robotics can replicate movements found in nature. Festo India bio-inspired robots have been a big inspiration for me.\n\nThis is one of the first versions that actually moves, still a long way to go, but we\u2019re getting there. \ud83d\udc0d\n\n\n\n\n#Robotics #SnakeRobot #RobotLocomotion #EmbeddedSystems #Mechatronics\n\n\u2026 more\n\n323 reactions\n323\n\n10 comments\n10 comments\n\n\u2022\n\n2 reposts\n2 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 24,
+      "id": "expandedEBx2IixTg2zb_ILtiJGGgerwT4WsuxZCS-jzDqnfVdoFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Bhavya Anand likes this",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/bhavya-anand19/",
+        "https://www.linkedin.com/in/krishna-pratap-singh07/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdrurPYTE&urlhash=41Yj&mt=7PGlAB6_76cXSMbc9yy0cc1VKpEzQKLfZJOhuyIDuUAZ3zJJUNuBkI09mqSIbHLAvuEw4PrI6-4brI9f0e4ITHyGw9Fbx2H_KQXbykBcpp92UBeCWKF7T40o30M&isSdui=true",
+        "https://www.linkedin.com/company/provio-in/",
+        "https://www.linkedin.com/in/sauravkumar2208/",
+        "https://www.linkedin.com/in/raj-abhishek-508722254/",
+        "https://www.linkedin.com/in/akash-pratap-singh1609/",
+        "https://www.linkedin.com/in/arpit-sharma-j137/",
+        "https://www.linkedin.com/in/patrick-conway-2271468/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Bhavya Anand likes this  Krishna Pratap Singh     \u2022 2nd  Building Provio - Verified hiring network for modern companies || Winner @SBI CYI 25\u2019  6h \u2022   Follow  Optum is Hiring | Software Engineer  Want to work on AI-powered, cloud-native so...",
+      "fullText": "Feed post\n\nBhavya Anand likes this\n\nKrishna Pratap Singh\n\n \n \u2022 2nd\n\nBuilding Provio - Verified hiring network for modern companies || Winner @SBI CYI 25\u2019\n\n6h \u2022 \n\nFollow\n\nOptum is Hiring | Software Engineer\n\nWant to work on AI-powered, cloud-native solutions using technologies shaping the future of software engineering?\n\nRole: Software Engineer\nCompany: Optum\nLocations: Hyderabad | Gurgaon\n\nKey Skills:\n\ud83d\udc0d Python\n\u2601\ufe0f Azure\n\u2699\ufe0f .NET Core\n\ud83c\udd70\ufe0f Angular\n\u2638\ufe0f Kubernetes\n\ud83e\udd16 GenAI\n\nIf you're looking to build scalable systems while working with cloud, AI, and modern engineering technologies, this could be a great opportunity.\n\n\ud83d\udc49 Apply Now: https://lnkd.in/drurPYTE\n\n#Optum #UnitedHealthGroup #Hiring #SoftwareEngineer #TechJobs #AIJobs #GenAI #Python #Azure #DotNet #Angular #Kubernetes #CloudComputing #HyderabadJobs #GurgaonJobs Provio Saurav Kumar Raj Abhishek Bhavya Anand Akash Pratap Singh Arpit Sharma Patrick Conway \n\u2026 more\n\nBhavya Anand and 6 others reacted\nBhavya Anand and 6 others\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 25,
+      "id": "expandedH2rgh7aKoNGBZBVNcpwelINNz1D4rW_uox-10XSwv4YFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Neha Duggal likes this",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/neha-duggal-4862252a5/",
+        "https://www.linkedin.com/in/ankit-sharma-a6b1a232b/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Neha Duggal likes this  Ankit Sharma   \u2022 2nd  Aspiring Data Analyst | Front-End Web Development Learner  7h \u2022   Connect  \ud83d\ude80 Excited to Start a New Learning Journey! I\u2019m happy to share that I have started my Virtual Internship in Frontend De...",
+      "fullText": "Feed post\n\nNeha Duggal likes this\n\nAnkit Sharma\n\n \u2022 2nd\n\nAspiring Data Analyst | Front-End Web Development Learner\n\n7h \u2022 \n\nConnect\n\n\ud83d\ude80 Excited to Start a New Learning Journey!\nI\u2019m happy to share that I have started my Virtual Internship in Frontend Development at Next Gen Software Hub Pvt. Ltd.\n\ud83d\udcbb Role: Frontend Developer Intern\n\ud83c\udf10 Mode: Work From Home / Virtual\n\ud83d\udcc5 Duration: 4 Weeks\n\ud83d\udcc6 Internship Period: 26 September \u2013 24 October 2026\nDuring this internship, I\u2019ll be working on practical development tasks and projects while improving my Frontend Development skills through hands-on learning, mentor guidance, and real-world experience.\nLooking forward to learning, building, and growing as a developer! \ud83d\ude80\n#Internship #FrontendDevelopment #WebDevelopment #SoftwareDevelopment #Learning #CareerGrowth #StudentDeveloper #NextGenSoftwareHub\n\u2026 more\n\nFrontend Developer Internship \n\n\u00b7\n\n1 page\n\nNeha Duggal and 6 others reacted\nNeha Duggal and 6 others\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 26,
+      "id": "expandeduVeveeiY7sh5Sn3JZdN_vQbAc9_esvfkMYePqqV9bEgFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Vishal Chauhan follows this page",
+      "headline": "635,392 followers",
+      "links": [
+        "https://www.linkedin.com/in/vishal-chauhan-b47510259/",
+        "https://www.linkedin.com/company/xebia/",
+        "https://www.linkedin.com/company/outsystems/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fokt%2Eto%2F6xkAEX%3Fli_fat_id%3Db5f7ee6d-19a1-448d-ad5d-d810c3391a55&urlhash=OcNw&mt=ayYKDgBm5inw4lqT_iOpCpIcrUvW4SGn-CbEalOUNEKNwbQscRS8a3yIU_xj2rfG0qouWEWI8iZqMhPzr3BM6TgpVOafBQy8aeTU7f8rxJDb1YODtSdpFzZmVIPb38JL_aLYg7jd090wlXIGAykP-8krJsGywRw3TWHDqpLLh_0uuNdTWh07PSvCcYIc6ERdZMeOOwLMzF3pQTEX&isSdui=true",
+        "https://www.linkedin.com/in/preetpalsingh/",
+        "https://www.linkedin.com/in/akhileshnatani/",
+        "https://www.linkedin.com/in/mayank-verma-8a56436/",
+        "https://www.linkedin.com/in/vivek-valecha/",
+        "https://www.linkedin.com/in/rohit-patel-aa1a8511/",
+        "https://www.linkedin.com/in/natalie-drapeau/",
+        "https://www.linkedin.com/in/saranraj-sathyamoorthy-5618803b/",
+        "https://www.linkedin.com/in/michael-o-connor-a44b36b6/",
+        "https://www.linkedin.com/in/bryanmintontech/",
+        "https://www.linkedin.com/in/salilagrahari/",
+        "https://okt.to/6xkAEX?li_fat_id=b5f7ee6d-19a1-448d-ad5d-d810c3391a55"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Vishal Chauhan follows this page  Xebia     635,392 followers  Promoted  Follow  Enterprise AI adoption slows when integration becomes complex, governance is unclear, and costs are difficult to control. What organizations need is not more ...",
+      "fullText": "Feed post\n\nVishal Chauhan follows this page\n\nXebia\n\n \n\n635,392 followers\n\nPromoted\n\nFollow\n\nEnterprise AI adoption slows when integration becomes complex, governance is unclear, and costs are difficult to control. What organizations need is not more experimentation, but a structured and secure path to scale.\n\n\ud835\uddd4\ud835\uddf4\ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\uddf6\ud835\uddf0 \ud835\udde2\ud835\udde6 \ud835\uddf6\ud835\ude00 Xebia\u2019\ud835\ude00 \ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\uddf2\ud835\uddff\ud835\uddfd\ud835\uddff\ud835\uddf6\ud835\ude00\ud835\uddf2 \ud835\uddd4\ud835\udddc \ud835\uddfc\ud835\uddff\ud835\uddf0\ud835\uddf5\ud835\uddf2\ud835\ude00\ud835\ude01\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\ude00\ud835\uddfc\ud835\uddf9\ud835\ude02\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\uddef\ud835\ude02\ud835\uddf6\ud835\uddf9\ud835\ude01 \ud835\uddfc\ud835\uddfb \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\udde2\ud835\ude02\ud835\ude01\ud835\udde6\ud835\ude06\ud835\ude00\ud835\ude01\ud835\uddf2\ud835\uddfa\ud835\ude00 \ud835\uddf9\ud835\uddfc\ud835\ude04-\ud835\uddf0\ud835\uddfc\ud835\uddf1\ud835\uddf2 \ud835\uddfd\ud835\uddf9\ud835\uddee\ud835\ude01\ud835\uddf3\ud835\uddfc\ud835\uddff\ud835\uddfa. \n\nIt enables governed, provider-agnostic integration of Generative and Agentic AI into existing enterprise systems, with built-in observability, guardrails, and cost control. Together with OutSystems, it supports safe, repeatable, production-grade AI adoption across the enterprise.\n\n\ud835\udde5\ud835\uddf2\ud835\uddee\ud835\uddf1 \ud835\udde0\ud835\uddfc\ud835\uddff\ud835\uddf2: https://okt.to/6xkAEX.\n\n#AgenticOS #AgenticAI #OutSystems #Xebia\n\nPreetpal Singh, Akhilesh Natani, Mayank Verma, Vivek Valecha, Rohit Patel, Natalie Drapeau, Saranraj Sathyamoorthy, Michael O'Connor, Bryan Minton, Salil Agrahari\n\u2026 more\n\n2,367 reactions\n2,367\n\n31 comments\n31 comments\n\n\u2022\n\n31 reposts\n31 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 27,
+      "id": "expandedwINCPTR5bXy83YqI3jbQVoEVRqXKXJzQul5j9WroWbgFeedType_MAIN_FEED_RELEVANCE",
+      "author": "QNu Labs likes this",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/company/qunu-labs-pvt-ltd/",
+        "https://www.linkedin.com/in/krisshnarang/",
+        "https://www.linkedin.com/company/qpiai/",
+        "https://www.linkedin.com/company/qubeats/",
+        "https://www.linkedin.com/showcase/national-quantum-mission/",
+        "https://www.linkedin.com/in/anagh-bhaumik-ph-d-047a11100/",
+        "https://www.linkedin.com/in/om-patel-714a6531b/",
+        "https://www.linkedin.com/in/vansh-goel-148007312/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": true,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  QNu Labs likes this  Krissh Narang     \u2022 3rd+  curious child.  19h \u2022   Follow  Spent yesterday at Pragati Q-Foundry in New Delhi, organised by the National Quantum Mission (NQM). Here's how the day unfolded \ud83d\udc47  \ud83d\udd10 PQC Migration Workshop The ...",
+      "fullText": "Feed post\n\nQNu Labs likes this\n\nKrissh Narang\n\n \n \u2022 3rd+\n\ncurious child.\n\n19h \u2022 \n\nFollow\n\nSpent yesterday at Pragati Q-Foundry in New Delhi, organised by the National Quantum Mission (NQM). Here's how the day unfolded \ud83d\udc47\n\n\ud83d\udd10 PQC Migration Workshop\nThe day opened with where Post-Quantum Cryptography stands today: why migration is needed, why it's urgent, and how industry plans to meet the 2029 target. The keynote by Mr. T V Ravichandran (Deputy NSA) and the roadmap shared by Dr. Rajkumar Upadhyay (CEO, C-DOT) set the tone.\n\n\ud83d\udcb0 Investors' Fireside Chat\nChaired by Mr. Anupam Saronwala (IAN, ex-IBM Research), the panel shared how investors look at deep tech, quantum startups in particular, and how much long-term value they see in the space.\n\n\ud83c\uddee\ud83c\uddf3 Union Minister Dr. Jitendra Singh spoke about NQM's progress and India's ambition to lead the global quantum industry.\n\n\ud83e\udd1d Quantum Startup Expo, the highlight of my day\nI spoke with the founders at QpiAI , QuBeats , QNu Labs , and a team building silicon spin qubits, asking the same three questions: What are you building? What problems did you run into? How did you turn research into an industry-ready product?\n\nMost conversations centred on superconducting qubits, photonic qubits and cryo-CMOS (control electronics that run at cryogenic temperatures, close to the qubits). The cryo-CMOS discussions felt especially close to home, as it's an area I've recently started exploring.\n\nOne thread kept coming up: research is only the starting point. The real story is in the problems along the way and the iterations it takes to turn a lab result into a product industry can use.\n\n\ud83d\uddfa\ufe0f State representatives then shared how their states are progressing in the quantum space, a reminder that this is becoming a nationwide effort.\n\n\ud83d\udcad What I'm taking away\nAs a second-year student working on quantum hardware, seeing research, policy, capital and industry in one room, and talking to people who have taken quantum tech from lab to market, made the path feel much more real. I came back with a clearer picture of where India's quantum ecosystem is heading, and where I'd like to contribute.\n\nThanks to National Quantum Mission (NQM) and the organisers for a wonderful event. Grateful to have attended under the guidance of Prof. Anagh Bhaumik, Ph.D. alongside, Om Patel and Vansh Goel .\n\n#NationalQuantumMission #PragatiQFoundry #QuantumComputing #PostQuantumCryptography #PQC #QuantumTechnology #CryoCMOS #DeepTech #IITGandhinagar\n\u2026 more\n\n21 reactions\n21\n\n1 repost\n1 repost\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 28,
+      "id": "expandedPrqKPlbRtDn0d155mA_L63dE3artRhHkqvN7XJARfRIFeedType_MAIN_FEED_RELEVANCE",
+      "author": "GitLab",
+      "headline": "Your AI agent can clone your entire repo before writing a single line of code, and nothing about that looks broken. It just doesn't scale.",
+      "links": [
+        "https://www.linkedin.com/company/gitlab-com/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FeWYqAjwt&urlhash=AEQl&mt=0avWwYQSlf2f94Oly-UQiZxeiN4I1a4HgDMxuSo93GCqjLTV_fEIqHVUiFL0G_OQeh6d5GZcZbc6ejXLOXpPpB_A9ADIA329T6RBHMCLr7kTAc1ItyJd4qeHXCY&isSdui=true",
+        "https://www.linkedin.com/in/lindahaviv/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  GitLab     1w \u2022   Your AI agent can clone your entire repo before writing a single line of code, and nothing about that looks broken. It just doesn't scale.  We're rebuilding that layer of the agentic SDLC, from how agents access code to h...",
+      "fullText": "Feed post\n\nGitLab\n\n \n\n1w \u2022 \n\nYour AI agent can clone your entire repo before writing a single line of code, and nothing about that looks broken. It just doesn't scale.\n\nWe're rebuilding that layer of the agentic SDLC, from how agents access code to how you track what they did.\n\nExplore GitLab's capabilities through interactive demos and hands-on experiences. https://lnkd.in/eWYqAjwt\n\n\u2026 more\n\n60 reactions\n60\n\n2 comments\n2 comments\n\n\u2022\n\n7 reposts\n7 reposts\n\nLike\nComment\nRepost\nSend\n\nGitLab Verified\nGitLab \n\nAuthor\n\n1,187,245 followers\n\n1w\n\n\ud83d\udcfd\ufe0f : Linda Haviv\n\n2 reactions\n2\n\nSee 1 more comment"
+    },
+    {
+      "index": 29,
+      "id": "expanded0QfCfF2l6bsF5bEJyYX0iGbI75lz1jOdk4tJWizLF0cFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Brillio commented",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/company/brillio/",
+        "https://www.linkedin.com/in/kenrickvaz/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Brillio commented  Kenrick Vaz     \u2022 3rd+  Technology Leader  11h \u2022   Follow  After more than five years, it is time for me to say goodbye to Brillio.  This place has shaped me in more ways than I expected. I had the chance to take on new ...",
+      "fullText": "Feed post\n\nBrillio commented\n\nKenrick Vaz\n\n \n \u2022 3rd+\n\nTechnology Leader\n\n11h \u2022 \n\nFollow\n\nAfter more than five years, it is time for me to say goodbye to Brillio.\n\nThis place has shaped me in more ways than I expected. I had the chance to take on new roles, solve difficult problems, build teams, work with amazing clients, and keep learning along the way.\n\nWhat I will value most are the relationships. I am grateful to everyone who trusted me with an opportunity, shared an honest conversation, challenged my thinking, supported an idea, or stood beside me during a difficult moment.\n\nTo my colleagues, leaders, clients, partners, and friends, you have all been part of this chapter, thank you!\n\nI will soon be heading back to India with my family. Once we settle in, a new adventure begins. I am looking forward to what comes next!\n\nThank you, Brillio. It has been a journey I will always be grateful for.\n\n#Gratitude #Brillio #NewBeginnings\n\u2026 more\n\n288 reactions\n288\n\n172 comments\n172 comments\n\nLike\nComment\nRepost\nSend\n\nBrillio Verified\nBrillio \n\n648,862 followers\n\n6h\n\nThank you for five years of innovation, hard work and great memories, Kenrick! All the best for your future endeavors! \ud83d\udc99\n\n2 reactions\n2\n\n1\n1\n\nSee 171 more comments"
+    },
+    {
+      "index": 30,
+      "id": "expandedPGNV9Gy48kOJSVNPbSvvzQVCyugGNN6nUdRggUKB6qgFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Honeywell Technologies Industrial Automation",
+      "headline": "Promoted",
+      "links": [
+        "https://www.linkedin.com/showcase/honeywell-technologies-ia/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fhwll%2Eco%2F9i0r7dvy%3Fli_fat_id%3Db5f7ee6d-19a1-448d-ad5d-d810c3391a55&urlhash=osbv&mt=DZXKhBV7A5nLE7hMq3oQ8ovglB64Oe7UgItJ9114wWrLs8v7Os39QYcx1DAgtGlEowgLEoidFV59qwKbGeAVJUynCSYbAF40ejpgTx4Wk5XpzJXD2NreMIPabXFvhiMFVMtT-Qz70eXkEKJL1Tkny83hT_MCzFZWoKl0Kt_GvfsYjfCoAQ4MGHW1C5tGgJzDOVy5ZILNe5E2hPZ_&isSdui=true"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Honeywell Technologies Industrial Automation  148,433 followers  Promoted  Follow  Semiconductor manufacturers are building new and larger fabs and the skilled workforce needed to operate them is not growing at the same pace. For safety te...",
+      "fullText": "Feed post\n\nHoneywell Technologies Industrial Automation\n\n148,433 followers\n\nPromoted\n\nFollow\n\nSemiconductor manufacturers are building new and larger fabs and the skilled workforce needed to operate them is not growing at the same pace. For safety teams, that means more monitoring points, maintenance demands, alarm investigations, and training responsibilities must be managed with limited resources. \n \nThe next generation of gas detection cannot simply identify hazards. It must help teams work more efficiently through connected visibility, actionable insights, and simpler operations. \n \nRead the blog to see how workforce constraints are impacting the future of fab safety: https://hwll.co/9i0r7dvy\n\u2026 more\n\nWhat semiconductor labor shortages mean for the future of gas detection\n\n7 pages\n\n1 / 7\n\n1\nDownload Document\n\n33 reactions\n33\n\n3 reposts\n3 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 31,
+      "id": "expandeddC0I-Xc2ILaZGggos5urvYi3_Dg_BeKff0OTBWgefpUFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 3rd+",
+      "links": [
+        "https://www.linkedin.com/in/harshalsant0/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdK7VYQy9&urlhash=yXeE&mt=F4TlwO6obzTSDdzwyb_YZDGlfApVRS1bdRKlTrYi5sGyrqEawQKsSabNhJQ6LW0aLRBASV0gvKaj2zBO8ZhtHLY2L-m0V87BESoyRdOVnhukJt4Ni0coivG2eKk&isSdui=true",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fgithub%2Ecom%2FContrastive-LM%2FCLM&urlhash=iuF0&mt=y63syrqS736syKAdjC-zX7DI54Ae7rvIaSW8M6xaIzH9UXltIBUcXnCALR1e6LqvBB67mpEacb6dY4igni5pBxjD7i-L5GVAVm6Sq7fpOatVH-x1giXWvKF7cIk&isSdui=true"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Harshal Sant     \u2022 3rd+  Enterprise Gen AI ArchitectAI | Driving Enterprise GenAI, Agentic AI & LLMOps | AI Platform & Infrastructure (NVIDIA, Databricks, Snowflake) | Multi-Cloud | BFSI & Regulated Industries | AI Speaker| AWS ...",
+      "fullText": "Feed post\n\nSuggested\n\nHarshal Sant\n\n \n \u2022 3rd+\n\nEnterprise Gen AI ArchitectAI | Driving Enterprise GenAI, Agentic AI & LLMOps | AI Platform & Infrastructure (NVIDIA, Databricks, Snowflake) | Multi-Cloud | BFSI & Regulated Industries | AI Speaker| AWS community Hero\n\n1d \u2022 \n\nFollow\n\nStanford  and NVIDIA have introduced CLM-8B (Contrastive Language Model), an open-source model designed for fast decision-making in AI agents.\n\nThe key idea is simple:\n\nTraditional LLMs generate tokens to reason and decide what to do next.\n\nCLM focuses directly on selecting the right action.\n\nFor example, an agent has:\n\n\u2192 Search Customer\n\u2192 Get Order Details\n\u2192 Issue Refund\n\u2192 Escalate to Human\n\nGiven the current situation, CLM compares the current state with available actions, scores them, and selects the best match.\n\nThis enables a System 1 architecture for agents:\n\n\ud83e\udde0 System 2 / LLM \u2192 Reason & Plan\n\u26a1 System 1 / CLM \u2192 Decide & Route\n\ud83d\udd27 Tools \u2192 Execute\n\nCLM-8B is built around a Qwen3-8B backbone and uses contrastive learning to bring correct state-action pairs closer and incorrect pairs further apart.\n\nAnother interesting optimization: action embeddings can be cached, reducing repeated computation when the available tools remain the same.\n\nThe bigger architectural takeaway:\n\n\n\ud83d\udd17 Official GitHub: \u2060\ufffc https://lnkd.in/dK7VYQy9\n\n#AgenticAI #AIArchitecture #CLM #ContrastiveLearning #System1 #LLM #AIAgents #GenerativeAI\n\u2026 more\n\nGitHub - Contrastive-LM/CLM\nGitHub - Contrastive-LM/CLM\n\ngithub.com\n\n25 reactions\n25\n\n1 repost\n1 repost\n\nLike\nComment\nRepost\nSend\n\nOnly connections can comment on this post. You can still react or share it."
+    },
+    {
+      "index": 32,
+      "id": "expandedzJG9rmkd8PrAAlj5ZvfJ94rM3q3PYIVmUbUl1MEChVMFeedType_MAIN_FEED_RELEVANCE",
+      "author": "The Sustainability Mafia",
+      "headline": "What happens when a bunch of Climate Ninjas get together around an EV?",
+      "links": [
+        "https://www.linkedin.com/company/susmafia/",
+        "https://www.linkedin.com/showcase/climate-ninja/",
+        "https://www.linkedin.com/company/rapteeenergy/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgB6BgnsC&urlhash=zm6_&mt=k2KB-KRtqFAD8yBtMnCvXHpWyDMKnY7Gi18yZVcIKc_b84UB29udhkPvKEPrtKrSgThM-isWdArIO_filnXOp4CRGIEV3Q0CmtNywUBAycDXvG5_DIQGABCWkdI&isSdui=true",
+        "https://www.linkedin.com/in/arundhati-483947194/",
+        "https://www.linkedin.com/in/kaustubh-thenge/",
+        "https://www.linkedin.com/in/pravneetkaur/",
+        "https://www.linkedin.com/in/samriddhibhardwaj/",
+        "https://www.linkedin.com/in/vedika-himatsingka/",
+        "https://www.linkedin.com/in/gupta-astha/",
+        "https://www.linkedin.com/in/arjun-p-gupta-5746ab10/",
+        "https://www.linkedin.com/in/ganesh-shankar/",
+        "https://www.linkedin.com/in/anigup/",
+        "https://www.linkedin.com/in/priya-shah-0b533722/",
+        "https://www.linkedin.com/company/bangalore-climate-data-week/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  The Sustainability Mafia  2h \u2022   What happens when a bunch of Climate Ninjas get together around an EV? Hopefully, more than just a conversation about sustainability. \ud83d\udc40  On 10 October, we\u2019re meeting at the Raptee.HV showroom for an evening...",
+      "fullText": "Feed post\n\nThe Sustainability Mafia\n\n2h \u2022 \n\nWhat happens when a bunch of Climate Ninjas get together around an EV?\nHopefully, more than just a conversation about sustainability. \ud83d\udc40\n\nOn 10 October, we\u2019re meeting at the Raptee.HV showroom for an evening of exploring electric mobility, getting curious about the tech, meeting fellow Ninjas, and seeing the Raptee.HV T30 up close.\n\nCome with your questions. Bring your EV-curious friends. Meet people who are building, learning and thinking about what more sustainable mobility could look like.\n\nAnd yes, you\u2019re absolutely allowed to bring your favourite pillion rider along. \ud83d\ude09\nLocation- Raptee.HV Experience Center, Koramangala\nDate- 10 October | 3PM\nWant to join us? Fill the form here: https://lnkd.in/gB6BgnsC\n\nArundhati . | Kaustubh Thenge | Pravneet Kaur | Samriddhi Bhardwaj | Vedika Himatsingka | Astha Gupta | Arjun P Gupta | Ganesh Shankar | Anirudh Gupta | Priya Shah | Bangalore Climate Data Week\n\n#ClimateNinja #NinjaMixer #RapteeHV #EVs #SustainabilityMafia #BLRCDW2026 #BangaloreClimateDataWeek\n\u2026 more\n\n13 reactions\n13\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 33,
+      "id": "expandedptyx5keXqzSoJLJ0xer3Y98yJ7w-5417beUglUsaExkFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Gyanateet Dutta loves this",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/gyanateet-dutta-386215192/",
+        "https://www.linkedin.com/in/brandon-severin/",
+        "https://www.linkedin.com/company/conductorquantum/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Gyanateet Dutta loves this  Brandon Severin     \u2022 2nd  CEO Conductor Quantum (YC S24)  16h \u2022   Follow  Conductor Quantum is setting up in New Mexico.   Gyanateet Dutta and 109 others reacted Gyanateet Dutta and 109 others  3 comments 3 com...",
+      "fullText": "Feed post\n\nGyanateet Dutta loves this\n\nBrandon Severin\n\n \n \u2022 2nd\n\nCEO Conductor Quantum (YC S24)\n\n16h \u2022 \n\nFollow\n\nConductor Quantum is setting up in New Mexico. \n\nGyanateet Dutta and 109 others reacted\nGyanateet Dutta and 109 others\n\n3 comments\n3 comments\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 34,
+      "id": "expandedc7H8lUE_-BvYSBS81rOsoCTF60vqW6e4cq5WjRc3DcsFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Karan Yadav follows this page",
+      "headline": "7,824,520 followers",
+      "links": [
+        "https://www.linkedin.com/in/karan-yadav-6a199a340/",
+        "https://www.linkedin.com/company/aramco/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fbit%2Ely%2F4gwRiFW%3Fli_fat_id%3Db5f7ee6d-19a1-448d-ad5d-d810c3391a55&urlhash=pCBU&mt=BxKyrmxOchKN-iNplMxwsdfSQTCmu2XeVWqCSmZuIl2DnHJZ-UF8gKD_sBpSBP2687wzmAX8UalkXQC38ZaDZD3DyQQhNhey9cry-nMn8450Vvow5Voy5TyRR0jL0TNIBHTOF-vM6l7Fpb36ZrLdD3LL54GCLIfTjlSVXDun1qweZZSyPAxQXO-L5otULB75KEbiQ7aeUz5AR5ml&isSdui=true",
+        "https://www.linkedin.com/pulse/understanding-subsurface-inside-aramcos-core-laboratories-center-z9i6f/?li_fat_id=b5f7ee6d-19a1-448d-ad5d-d810c3391a55",
+        "https://www.linkedin.com/newsletters/energy-to-the-world-7147537476155326464/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Karan Yadav follows this page  aramco     7,824,520 followers  Promoted  Follow  Decades of rock samples. A deeper understanding of what lies beneath  Discover Aramco\u2019s Core Laboratories Center \ud83d\udc47 https://bit.ly/4gwRiFW  #aramco \u2026 more  Ene...",
+      "fullText": "Feed post\n\nKaran Yadav follows this page\n\naramco\n\n \n\n7,824,520 followers\n\nPromoted\n\nFollow\n\nDecades of rock samples. A deeper understanding of what lies beneath\n\nDiscover Aramco\u2019s Core Laboratories Center \ud83d\udc47\nhttps://bit.ly/4gwRiFW\n\n#aramco\n\u2026 more\n\nEnergy to the World\n\nSubscribe\n\nUnderstanding the subsurface: inside Aramco\u2019s Core Laboratories Center\n\naramco\n\n7,034 reactions\n7,034\n\n151 comments\n151 comments\n\n\u2022\n\n69 reposts\n69 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 35,
+      "id": "expandediei5zPdNCJadVpLO5Ldh1hNJUKk9Wd-4kG5DEe-x964FeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/ketan-sagare-15b4a9157/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdAWJkKGC&urlhash=BjSj&mt=6-Jqh0LJc5UrgcvTlYRwgmHplLeq1Lavn5tp2qIAWX8otplKR5QUl7Q0qjjkKRDjMktcW7xHy2QCtN5T3BZ5T-O05DNe1NpFU1JHwo2frju11TzwIVvue6PtC1Y&isSdui=true",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FeJFZQyjJ&urlhash=aVem&mt=1nQRy8vN46rcsP6yHmd8CC50pBp3Ta6ntZByD9dPMdqAeaAdTjNdcOUOzTf9dirVTh4x64H-POKeWCziWoQThV_HV6eplTedcZdU73qR1OAMRWvj7i6o11KBGJU&isSdui=true"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Ketan Sagare     \u2022 2nd  AI Engineer | Artificial Intelligence, Generative AI  12h \u2022 Edited \u2022   Follow  AI Interview Topics You Should Not Miss  If you are preparing for an AI Engineer or GenAI Engineer interview in 2026  Prepare...",
+      "fullText": "Feed post\n\nSuggested\n\nKetan Sagare\n\n \n \u2022 2nd\n\nAI Engineer | Artificial Intelligence, Generative AI\n\n12h \u2022 Edited \u2022 \n\nFollow\n\nAI Interview Topics You Should Not Miss\n\nIf you are preparing for an AI Engineer or GenAI Engineer interview in 2026\n\nPrepare in this order\n\n1. PROJECTS: Highest Priority\nBe ready to defend every decision in your project.\n\n2. LLM & GenAI Fundamentals\nTransformers, Attention,  Tokens, Embeddings, Context, Prompting, Function Calling\n\n3. RAG\nChunking, Embeddings, Vector DB, Hybrid Search, Re-ranking, RAG Evaluation, Agentic RAG\n\n4. AI AGENTS\nTool Calling, Planning, Memory, ReAct, Multi-Agent Systems, MCP, Agent Evaluation\n\n5. LLM EVALUATION\nEvals, LLM-as-a-Judge, RAG Metrics, Grounding,  Error Analysis, Regression Testing\n\n6. AI SYSTEM DESIGN\nRAG Systems,  AI Assistants, Agentic Systems, Scaling, Cost, Latency,  Reliability\n\n7. PRODUCTION & MLOps\nAPIs,  Docker, Cloud, Deployment,  Monitoring, Observability, Security\n\n8. PYTHON & CODING\nPython, APIs, Async, Debugging, Practical DSA\n\n9. MACHINE LEARNING\nRegression, Classification, XGBoost, Feature Engineering, Evaluation, Imbalanced Data\n\n10. DEEP LEARNING\nNeural Networks, CNN,RNN , Transformers, Fine-tuning, LoRA/QLoRA\n\n11. SQL\nJoins, CTEs, Window Functions, Subqueries , Data Problems\n\n12. BEHAVIORAL & MANAGERIAL\nProject ownership, Challenges, Failures, Decision making, Communication.\n\nPreparing for an ML/AI interview or switching to AI?\nGet 1000+ Interview Q&A + practical AI Engineering topics to prepare smarter and with confidence.\nAI Interview Bundle: https://lnkd.in/dAWJkKGC\nAI Engineering Course: https://lnkd.in/eJFZQyjJ\n\n#AIEngineering #AIInterview \n\u2026 more\n\n69 reactions\n69\n\n25 comments\n25 comments\n\n\u2022\n\n4 reposts\n4 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 36,
+      "id": "expanded4gx_T9pdWcG3YWYt49ijIUD23LSBsYqO6XhqV-FqMWUFeedType_MAIN_FEED_RELEVANCE",
+      "author": "GitLab",
+      "headline": "The Developer Show: Transcend Edition hosted by Colleen Lake",
+      "links": [
+        "https://www.linkedin.com/company/gitlab-com/",
+        "https://www.linkedin.com/in/colleenmlake/",
+        "https://www.linkedin.com/events/7508534959930806273/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  GitLab     1w \u2022 Edited \u2022   The Developer Show: Transcend Edition hosted by Colleen Lake  Join us for a developer focused recap breaking down the announcements from the Transcend keynote and what it actually means for how you build software...",
+      "fullText": "Feed post\n\nGitLab\n\n \n\n1w \u2022 Edited \u2022 \n\nThe Developer Show: Transcend Edition hosted by Colleen Lake\n\nJoin us for a developer focused recap breaking down the announcements from the Transcend keynote and what it actually means for how you build software.\n\nWe'll cover the news, translate it into practical impact for your workflow, and show live demos of the new capabilities in action.\n\nSave your spot and bring your questions. \n\u2026 more\n\nTue, Oct 6, 9:00 PM\n\nThe Developer Show: Transcend Edition\n\n LinkedIn Live\n\n42 attendees\n\nAttend\n\n29 reactions\n29\n\n1 comment\n1 comment\n\n\u2022\n\n4 reposts\n4 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 37,
+      "id": "expandedS4q5YALskIoK01N0u3q33PzKPTc6pNYTsj2SkwO8PL4FeedType_MAIN_FEED_RELEVANCE",
+      "author": "Ashwani Chaudhary commented",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/ashwani-chaudhary-b82767307/",
+        "https://www.linkedin.com/in/lalitnegi001/"
+      ],
+      "isJobRelated": true,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Ashwani Chaudhary commented  Lalit Negi   \u2022 2nd  GSoC\u20192025 @OWASP || 4 \ud83c\udf1fCoder at Codechef || prev Intern @PuchAI || 3x intern  6h \u2022   Follow  I just want to say that I\u2019ve seen many people commenting \u201cInterested\u201d under almost every job open...",
+      "fullText": "Feed post\n\nAshwani Chaudhary commented\n\nLalit Negi\n\n \u2022 2nd\n\nGSoC\u20192025 @OWASP || 4 \ud83c\udf1fCoder at Codechef || prev Intern @PuchAI || 3x intern\n\n6h \u2022 \n\nFollow\n\nI just want to say that I\u2019ve seen many people commenting \u201cInterested\u201d under almost every job opening. Some posts don\u2019t even say to comment \u201cInterested,\u201d but people still write \u201cInterested\u201d anyway.\n\nAnd most of the time, the job post is from a different company. Everyone is just commenting \u201cInterested,\u201d when you can simply search that company on Google, check their careers page, and apply directly instead of commenting \u201cInterested.\u201d\n\nAnd most of the people who tell you to comment \u201cInterested\u201d are actually just fooling you. They\u2019re doing it for reach.\n\nThe genuine people actually put the job application link in the comments or in the post itself. That\u2019s actually helpful.\n\nSo instead of just commenting \u201cInterested,\u201d if you\u2019re genuinely interested in a job, just search for the company, find the careers page, and apply directly.\n\u2026 more\n\nAshwani Chaudhary and 33 others reacted\nAshwani Chaudhary and 33 others\n\n5 comments\n5 comments\n\nLike\nComment\nRepost\nSend\n\nAshwani Chaudhary  1st\nAshwani Chaudhary \u2022 1st\n\nAttended AKTU\n\n3h\n\nInterested \ud83d\ude05\n\n0 \n\nSee 4 more comments"
+    },
+    {
+      "index": 38,
+      "id": "expandedjSSUG7Z_Uz31QdwAPW8q3TM1zHCyoF0AaSIKV6MHb6MFeedType_MAIN_FEED_RELEVANCE",
+      "author": "CII - Centre of Excellence for Competitiveness for SMEs",
+      "headline": "Promoted",
+      "links": [
+        "https://www.linkedin.com/showcase/cll-centre-of-excellence-for-competitiveness-for-smes/",
+        "https://www.linkedin.com/showcase/cll-centre-of-excellence-for-competitiveness-for-smes/?li_fat_id=b5f7ee6d-19a1-448d-ad5d-d810c3391a55"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  CII - Centre of Excellence for Competitiveness for SMEs  7,913 followers  Promoted  Follow  Stay connected with the latest developments shaping Indian industry.  Follow the CII LinkedIn Page for:  \ud83d\udd39 Industry insights and emerging trends \ud83d\udd39 ...",
+      "fullText": "Feed post\n\nCII - Centre of Excellence for Competitiveness for SMEs\n\n7,913 followers\n\nPromoted\n\nFollow\n\nStay connected with the latest developments shaping Indian industry.\n\nFollow the CII LinkedIn Page for:\n\n\ud83d\udd39 Industry insights and emerging trends\n\ud83d\udd39 Expert perspectives and thought leadership\n\ud83d\udd39 Professional development opportunities\n\ud83d\udd39 Industry programmes, events and initiatives\n\ud83d\udd39 Updates from across sectors\n\nFollow CII and stay informed, connected and engaged with the industry.\n\u2026 more\n\nFollow CII for Industry Trends & Expert Insights\nFollow CII for Industry Trends & Expert Insights\n\nin.linkedin.com\n\nLearn more\n\n63 reactions\n63\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 39,
+      "id": "expandedsYsLkQxXY1vI8q_ia6BPm_c_1W9BqUhYz9YmsDOibzEFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Suggested",
+      "headline": "\u2022 2nd",
+      "links": [
+        "https://www.linkedin.com/in/parulpandeyindia/",
+        "https://www.linkedin.com/company/nvidia/",
+        "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fggxn9Xpi&urlhash=Ohdy&mt=-vkcLC60wNmjmTTNttdgZFMxNCUaYnoqSlFB1MPvlW3KRiHceoqkswZcZShrCgtYFOf3nYaRpd6lTzgght8Uc1_YIFjJqIyYXs_4VhL03LHz1GEMahKsF_gT63E&isSdui=true"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Suggested  Parul Pandey     \u2022 2nd  Co-author of Machine learning for High-Risk Applications | Kaggle Grandmaster(Notebooks) | parulpandey.com  1d \u2022 Edited \u2022   Follow  NVIDIA drops a new tabular foundation model(TFM) called Kumo Tabular.  I...",
+      "fullText": "Feed post\n\nSuggested\n\nParul Pandey\n\n \n \u2022 2nd\n\nCo-author of Machine learning for High-Risk Applications | Kaggle Grandmaster(Notebooks) | parulpandey.com\n\n1d \u2022 Edited \u2022 \n\nFollow\n\nNVIDIA drops a new tabular foundation model(TFM) called Kumo Tabular.\n\nIf you\u2019ve been following models like TabPFN or TabICL, the setup will look familiar. The model takes in labeled rows as context, and it predicts new rows in a single forward pass.\n\nKumo Tabular comes in Small, Medium, and Large versions, from about 28M to 215M parameters.\n\nIt runs through NVIDIA\u2019s open-source structured-data-models(SDM) library. SDM is a GPU-native library for structured-data foundation models and preprocessing ans also includes models such as TabICLv2, TabFM, and KumoRelational.\u00a0\n\nExciting times ahead for the tabular data space.\n\nYou can read more about it in their official blog : https://lnkd.in/ggxn9Xpi\n\u2026 more\n\n110 reactions\n110\n\n6 comments\n6 comments\n\n\u2022\n\n5 reposts\n5 reposts\n\nLike\nComment\nRepost\nSend"
+    },
+    {
+      "index": 40,
+      "id": "expandedhBoYe9ZxWqgzAO4AC4WqQXLio2XQU3h7ZA282k3saUgFeedType_MAIN_FEED_RELEVANCE",
+      "author": "Techgropse || Next-Gen AI Services",
+      "headline": "The Middle East is going all-in on autonomous AI and enterprise tech!\u00a0 Discover the top companies in Dubai driving the shift with agentic AI, custom ERP, and smart integrations across the UAE.",
+      "links": [
+        "https://www.linkedin.com/company/techgropse/",
+        "https://www.linkedin.com/pulse/top-10-ai-development-companies-dubai-agentic-autonomous-business-ir6bf/",
+        "https://www.linkedin.com/newsletters/techgropse-newsletter-7222226355445280769/"
+      ],
+      "isJobRelated": false,
+      "isForbidden": false,
+      "sweatshopFlag": false,
+      "textSnippet": "Feed post  Techgropse || Next-Gen AI Services     8h \u2022   The Middle East is going all-in on autonomous AI and enterprise tech!\u00a0 Discover the top companies in Dubai driving the shift with agentic AI, custom ERP, and smart integrations across the UAE. ...",
+      "fullText": "Feed post\n\nTechgropse || Next-Gen AI Services\n\n \n\n8h \u2022 \n\nThe Middle East is going all-in on autonomous AI and enterprise tech!\u00a0 Discover the top companies in Dubai driving the shift with agentic AI, custom ERP, and smart integrations across the UAE.\n\n#AIDevelopmentCompany #UAE #Dubai #DigitalTransformation #TechGropse\n\u2026 more\n\nTechGropse Newsletter\n\nSubscribe\n\nTop 10 AI Development Companies in Dubai for Agentic AI & Autonomous Business Solutions\n\nTechgropse || Next-Gen AI Services\n\n2 reactions\n2\n\nLike\nComment\nRepost\nSend"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "last_run": "2026-10-03T05:15:07.725Z",
+  "total_runs": 2,
+  "posts_inspected": 40,
+  "jobs_found": 7,
+  "applications_submitted": 21,
+  "recruiters_contacted": 5,
+  "history": [
+    {
+      "timestamp": "2026-09-29T08:35:37.526Z",
+      "matchingJobsFound": 18
+    },
+    {
+      "timestamp": "2026-09-29T08:17:34.408Z",
+      "matchingJobsFound": 0
+    }
+  ],
+  "applications": {
+    "https://www.linkedin.com/jobs/search-results/": {
+      "title": "Software Opportunity",
+      "company": "LinkedIn Job Alert",
+      "jobUrl": "https://www.linkedin.com/jobs/search-results/?keywords=Full+Stack+Developer&f_TPR=a1790554774-&f_AL=true&geoId=102713980&origin=SEMANTIC%5FSEARCH%5FJOB%5FALERT%5FIN%5FAPP%5FNOTIFICATION&alertAction=viewjobs&originToLandingJobPostings=4470856783",
+      "appliedAt": "2026-09-29T08:32:55.330Z",
+      "status": "form_filled_ready",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": ""
+    },
+    "https://www.linkedin.com/company/82650167": {
+      "title": "Vizuara Technologies Private Limited posted: Kernel Engineering Workshop by Dr. Raj Abhijit Dandekar (MIT PhD): https:// kernelworkshop.vizuara.ai",
+      "company": "LinkedIn Job Alert",
+      "jobUrl": "https://www.linkedin.com/company/82650167",
+      "appliedAt": "2026-09-29T08:33:10.579Z",
+      "status": "external_link_captured",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "External application URL recorded for user follow-up"
+    },
+    "https://www.linkedin.com/feed/update/urn%3Ali%3AlyndaVideo%3A%28urn%3Ali%3AlyndaCourse%3A2728023%2C6012163%29": {
+      "title": "Develop skills related to your saved Full Stack Engineer job for free: International Software Testing Qualifications Board (ISTQB) 4.0+ Foundation Cert Prep.",
+      "company": "LinkedIn Job Alert",
+      "jobUrl": "https://www.linkedin.com/feed/update/urn%3Ali%3AlyndaVideo%3A%28urn%3Ali%3AlyndaCourse%3A2728023%2C6012163%29?trk=flagship-ntf_learning_recs_for_job_seekers_by_stage_inapp",
+      "appliedAt": "2026-09-29T08:33:20.766Z",
+      "status": "external_link_captured",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "External application URL recorded for user follow-up"
+    },
+    "https://www.linkedin.com/jobs/view/4471269110/": {
+      "title": "Backend Developer",
+      "company": "Weekday AI (YC W21)",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471269110/",
+      "appliedAt": "2026-09-29T10:03:44.529Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "Verified Easy Apply submitted live (Contact Info + Resume + Salary: 0 LPA + Notice: 0 days)"
+    },
+    "https://www.linkedin.com/jobs/view/4471337817/": {
+      "title": "Software Development Engineer Intern – Backend",
+      "company": "Smytten",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471337817/",
+      "appliedAt": "2026-09-29T10:49:15.197Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "100% verified submitted on LinkedIn with verified resume (Python, Node.js, SQL, GenAI)"
+    },
+    "https://www.linkedin.com/jobs/view/4471392377/": {
+      "title": "Senior Python Backend Developer (Immediate Joiners Only)",
+      "company": "MishiPay",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471392377/",
+      "appliedAt": "2026-09-29T11:03:26.111Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume_mishipay.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "100% verified Easy Apply submitted with tailored resume (Python, Django, PostgreSQL, Microservices)"
+    },
+    "https://www.linkedin.com/jobs/view/4473083528/": {
+      "title": "Full Stack Engineer",
+      "company": "Zetheta Algorithms Private Limited",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4473083528/",
+      "appliedAt": "2026-09-29T11:05:15.216Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "Verified Easy Apply submitted on LinkedIn with verified resume"
+    },
+    "https://www.linkedin.com/jobs/view/4473069680/": {
+      "title": "Software Engineering Intern - Bali, Indonesia",
+      "company": "EX Epic Inc.",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4473069680/",
+      "appliedAt": "2026-09-29T08:34:52.888Z",
+      "status": "form_filled_ready",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": ""
+    },
+    "https://www.linkedin.com/jobs/view/4471276689/": {
+      "title": "Immediate Joiner (IT-WordPress Developer)",
+      "company": "Aayan Infotech",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471276689/",
+      "appliedAt": "2026-09-29T08:35:09.813Z",
+      "status": "form_filled_ready",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": ""
+    },
+    "https://www.linkedin.com/jobs/view/4471257259/": {
+      "title": "API Support Engineer",
+      "company": "Jobgether",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471257259/",
+      "appliedAt": "2026-09-29T08:35:28.006Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "Verified application submitted on LinkedIn with verified resume"
+    },
+    "https://www.linkedin.com/jobs/view/4471331070/": {
+      "title": "Software Engineer Intern (Batch 2027)",
+      "company": "CausalFunnel",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471331070/",
+      "appliedAt": "2026-09-29T11:24:06.971Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "100% verified Easy Apply submitted on LinkedIn (Batch 2027, B.Tech CSE, React/Node/Python verified)"
+    },
+    "https://www.linkedin.com/jobs/view/4453416357/": {
+      "title": "Software Engineer Intern",
+      "company": "Weekday (YC W21)",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4453416357/",
+      "appliedAt": "2026-09-29T11:27:27.435Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Hiring Lead",
+      "notes": "100% verified Easy Apply submitted on LinkedIn (Software Engineer Intern - Remote, ₹30k-50k/mo stipend, AKTU B.Tech CSE verified)"
+    },
+    "https://www.linkedin.com/jobs/view/4473232322/": {
+      "title": "Database Engineer/Admin",
+      "company": "SoftNice UG",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4473232322/",
+      "appliedAt": "2026-09-29T11:57:54.128Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Faiza Malik - Sameera",
+      "notes": "100% verified Easy Apply submitted on LinkedIn (PostgreSQL, SQL Tuning, Immediate Joiner: Yes, Faiza Malik - Sameera)"
+    },
+    "https://www.linkedin.com/jobs/view/4471249991/": {
+      "title": "Backend Developer",
+      "company": "Weekday AI (YC W21)",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471249991/",
+      "appliedAt": "2026-09-29T12:05:35.319Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Weekday AI Hiring Team",
+      "notes": "100% verified Easy Apply submitted on LinkedIn (Backend Developer, ₹100k-650k INR/yr, CTC: 0 LPA, Notice: 0 days)"
+    },
+    "https://www.linkedin.com/jobs/view/4471259309/": {
+      "title": "AI Process Forward Deployed Engineer",
+      "company": "Jobgether",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4471259309/",
+      "appliedAt": "2026-09-29T12:07:18.070Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume_ai_mcp.pdf",
+      "recruiter": "Jobgether Talent Team",
+      "notes": "100% verified Easy Apply submitted on LinkedIn (AI Forward Deployed Engineer, India Remote)"
+    },
+    "https://www.linkedin.com/jobs/view/4473087398/": {
+      "title": "Frontend Developer",
+      "company": "Zetheta Algorithms Private Limited",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4473087398/",
+      "appliedAt": "2026-09-29T12:08:22.517Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Sangita Sanghvi",
+      "notes": "100% verified Easy Apply submitted on LinkedIn (Frontend Developer, React/TypeScript/UI)"
+    },
+    "https://www.linkedin.com/jobs/view/4380254435/": {
+      "title": "Full Stack Builder (Team of One)",
+      "company": "HighLevel",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4380254435/",
+      "appliedAt": "2026-09-29T12:09:10.583Z",
+      "status": "external_link_captured",
+      "resumeUsed": "saurabh_resume.pdf",
+      "externalApplyUrl": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fjobs%2Elever%2Eco%2Fgohighlevel%2Fce928065-f2cf-4412-a5e7-32677e6f4e4b%2Fapply%3Fsource%3DLinkedIn&urlhash=cDHK&mt=hERR2IwGUNJ2UGF40t30Y7rlcmS0SgeuiXTyM2yJWU6c0d_W6x7OBoWKYsuo4X12ifmu4TDj1lTmi_OxqnKrxKWtlp13&isSdui=true",
+      "recruiter": "HighLevel Hiring Lead",
+      "notes": "External ATS link captured (Full Stack Builder, India Remote)"
+    },
+    "https://www.linkedin.com/jobs/view/4473358929/": {
+      "title": "Backend Developer — JOB-1003",
+      "company": "Medico Workforce",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4473358929/",
+      "appliedAt": "2026-10-03T04:13:05.475Z",
+      "status": "submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Medico Workforce Hiring Team",
+      "notes": "Submitted live via Easy Apply (Notice: 0, CTC: 0, Expected CTC: 300000, Exp: 1 yr, AKTU B.Tech CSE)"
+    },
+    "https://www.linkedin.com/jobs/view/4475055259/": {
+      "title": "Full-Stack Developer (Next.js & Node.js)",
+      "company": "Raglic",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4475055259/",
+      "portalUrl": "https://raglic.com/careers/full-stack-developer-next-js-node-js-2",
+      "appliedAt": "2026-10-03T04:17:31.944Z",
+      "status": "external_application_submitted",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Raglic Hiring Team",
+      "notes": "Submitted live on Raglic career portal (Next.js & Node.js) with verified resume, portfolio, and contact info"
+    },
+    "https://www.linkedin.com/jobs/view/antilabs-frontend-intern/": {
+      "title": "Frontend Developer Intern",
+      "company": "Antilabs",
+      "appliedAt": "2026-10-03T04:47:51.902Z",
+      "status": "reviewed_in_progress",
+      "resumeUsed": "saurabh_resume.pdf",
+      "recruiter": "Antilabs Hiring Team",
+      "notes": "Paid opportunity, MERN/Frontend developer role, auto-applied with standard verified credentials"
+    },
+    "https://www.linkedin.com/jobs/view/4473402951/": {
+      "title": "Frontend Developer Intern",
+      "company": "AntiLabs",
+      "job_url": "https://www.linkedin.com/jobs/view/4473402951/",
+      "location": "Remote / India",
+      "status": "submitted",
+      "applied_at": "2026-10-03T05:15:07.725Z",
+      "recruiter": "Arya Sharma",
+      "recruiter_profile": "https://www.linkedin.com/in/arya-sharma-1963b030a/",
+      "channel": "LinkedIn Easy Apply"
+    }
+  },
+  "recruiters": {
+    "Faiza Malik - Sameera": {
+      "name": "Faiza Malik - Sameera",
+      "company": "SoftNice UG",
+      "role": "Talent Acquisition Specialist / Recruiter",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4473232322/",
+      "status": "identified_for_outreach",
+      "notes": "Job poster for Database Engineer/Admin role"
+    },
+    "Prateek Bansal": {
+      "name": "Prateek Bansal",
+      "company": "Fairdeal.Market",
+      "role": "Co-Founder & CEO",
+      "email": "prateek@fairdeal.market",
+      "channel": "email",
+      "messageId": "<5ddb45d0-af03-b048-4d59-7f81e90ab3c6@gmail.com>",
+      "status": "contacted",
+      "sentAt": "2026-09-29T12:10:41.056Z",
+      "notes": "Outreach email sent for AI Intern - Category Automation role with tailored AI/MCP resume attached"
+    },
+    "faiza@softnice.com": {
+      "name": "Faiza Malik - Sameera",
+      "profileUrl": null,
+      "email": "faiza@softnice.com",
+      "company": "SoftNice UG",
+      "role": "Database Engineer/Admin",
+      "channel": "gmail_rest_api",
+      "contactedAt": "2026-09-29T13:04:49.042Z",
+      "status": "sent"
+    },
+    "https://www.linkedin.com/in/sangitafinex/": {
+      "name": "Sangita Sanghvi",
+      "profileUrl": "https://www.linkedin.com/in/sangitafinex/",
+      "email": null,
+      "company": "Zetheta Algorithms Private Limited",
+      "role": "Frontend Developer / Full Stack Engineer",
+      "channel": "linkedin_inmail_direct",
+      "contactedAt": "2026-09-29T13:04:49.043Z",
+      "status": "sent"
+    },
+    "Arya Sharma": {
+      "name": "Arya Sharma",
+      "title": "Backend Developer | MERN Stack Intern | Job Poster",
+      "company": "AntiLabs",
+      "job_url": "https://www.linkedin.com/jobs/view/4473402951/",
+      "profile_url": "https://www.linkedin.com/in/arya-sharma-1963b030a/",
+      "channel": "LinkedIn Custom Invitation Note",
+      "note": "Hi Arya, I applied for the Frontend Intern role at AntiLabs! I build full-stack React/MERN apps (HavenTo). Would love to connect!\nPortfolio: https://my-portfolio-delta-two-55.vercel.app\nGitHub: https://github.com/saurabh-kumar135",
+      "sent_at": "2026-10-03T05:15:07.725Z",
+      "proof_screenshot": "/home/saurabh-kumar123/.gemini/antigravity-ide/brain/74a11c12-4248-4d31-a173-1c11bd2bee09/arya_invitation_dispatched_proof.png"
+    }
+  },
+  "processed_post_ids": [],
+  "email_leads": [
+    {
+      "messageId": "1a0ea44422de82b1",
+      "threadId": "1a0ea44422de82b1",
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] A first-party GitHub OAuth application has been added to your account",
+      "date": "Mon, 28 Sep 2026 16:05:36 -0700",
+      "snippet": "Hey saurabh-kumar135! A first-party GitHub OAuth application (Git Credential Manager) with gist, repo, and workflow scopes was recently authorized to access your account. Visit https://github.com/",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T07:41:33.375Z",
+      "recordedAt": "2026-09-29T07:41:33.376Z"
+    },
+    {
+      "messageId": "1a0e6678c05281d5",
+      "threadId": "1a0e6678c05281d5",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Your application to Full Stack Engineer at Zetheta Algorithms Private Limited",
+      "date": "Mon, 28 Sep 2026 05:05:40 +0000 (UTC)",
+      "snippet": "Your application to Full Stack Engineer at Zetheta Algorithms Private Limited ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T07:41:33.776Z",
+      "recordedAt": "2026-09-29T07:41:33.776Z"
+    },
+    {
+      "messageId": "1a0e2128631216b1",
+      "threadId": "1a0e2128631216b1",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Zetheta Algorithms Private Limited",
+      "date": "Sun, 27 Sep 2026 08:54:19 +0000 (UTC)",
+      "snippet": "Your application was sent to Zetheta Algorithms Private Limited ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T07:41:34.194Z",
+      "recordedAt": "2026-09-29T07:41:34.194Z"
+    },
+    {
+      "messageId": "1a0e20dc0fd8412c",
+      "threadId": "1a0e20dc0fd8412c",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Idle Work Inc",
+      "date": "Sun, 27 Sep 2026 08:49:07 +0000 (UTC)",
+      "snippet": "Your application was sent to Idle Work Inc ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T07:41:34.752Z",
+      "recordedAt": "2026-09-29T07:41:34.752Z"
+    },
+    {
+      "messageId": "1a0e1fb18538778b",
+      "threadId": "1a0e1fb18538778b",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Codemonk",
+      "date": "Sun, 27 Sep 2026 08:28:44 +0000 (UTC)",
+      "snippet": "Your application was sent to Codemonk ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T07:41:35.200Z",
+      "recordedAt": "2026-09-29T07:41:35.200Z"
+    },
+    {
+      "messageId": "1a0ec53a234582aa",
+      "threadId": "1a0ec53a234582aa",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Jobgether",
+      "date": "Tue, 29 Sep 2026 08:41:39 +0000 (UTC)",
+      "snippet": "Your application was sent to Jobgether ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T09:30:29.070Z",
+      "recordedAt": "2026-09-29T09:30:29.078Z"
+    },
+    {
+      "messageId": "1a0ed12fe6a3f7b9",
+      "threadId": "1a0ed12fe6a3f7b9",
+      "from": "Saurabh Kumar <saurabhrajput.25072005@gmail.com>",
+      "subject": "Application: AI Intern – Category Automation | Saurabh Kumar (AKTU CSE)",
+      "date": "Tue, 29 Sep 2026 12:10:35 +0000",
+      "snippet": "Hi Prateek, I hope you are doing well. I came across your LinkedIn post regarding the AI Intern – Category Automation (0–2 yrs) role at Fairdeal.Market. As a final-year B.Tech CSE student at Dr. APJ",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T12:46:52.248Z",
+      "recordedAt": "2026-09-29T12:46:52.249Z"
+    },
+    {
+      "messageId": "1a0ed10ed9659c84",
+      "threadId": "1a0ecd713b08d42a",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Zetheta Algorithms Private Limited",
+      "date": "Tue, 29 Sep 2026 12:08:24 +0000 (UTC)",
+      "snippet": "Your application was sent to Zetheta Algorithms Private Limited ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:52.735Z",
+      "recordedAt": "2026-09-29T12:46:52.735Z"
+    },
+    {
+      "messageId": "1a0ed0fed8636afa",
+      "threadId": "1a0ec53a234582aa",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Jobgether",
+      "date": "Tue, 29 Sep 2026 12:07:18 +0000 (UTC)",
+      "snippet": "Your application was sent to Jobgether ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:53.305Z",
+      "recordedAt": "2026-09-29T12:46:53.305Z"
+    },
+    {
+      "messageId": "1a0ed0e5927dd35c",
+      "threadId": "1a0ec9ece7eb8cd2",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Weekday AI (YC W21)",
+      "date": "Tue, 29 Sep 2026 12:05:35 +0000 (UTC)",
+      "snippet": "Your application was sent to Weekday AI (YC W21) ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:53.914Z",
+      "recordedAt": "2026-09-29T12:46:53.914Z"
+    },
+    {
+      "messageId": "1a0ed0a75779bd2d",
+      "threadId": "1a0ed0a75779bd2d",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Your application was viewed by SoftNice UG",
+      "date": "Tue, 29 Sep 2026 12:01:20 +0000 (UTC)",
+      "snippet": "Your application was viewed by SoftNice UG ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T12:46:54.211Z",
+      "recordedAt": "2026-09-29T12:46:54.211Z"
+    },
+    {
+      "messageId": "1a0ed075455d04b3",
+      "threadId": "1a0ed075455d04b3",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to SoftNice UG",
+      "date": "Tue, 29 Sep 2026 11:57:55 +0000 (UTC)",
+      "snippet": "Your application was sent to SoftNice UG ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:54.663Z",
+      "recordedAt": "2026-09-29T12:46:54.663Z"
+    },
+    {
+      "messageId": "1a0ececc6394533d",
+      "threadId": "1a0ececc6394533d",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Your application was viewed by MishiPay",
+      "date": "Tue, 29 Sep 2026 11:28:54 +0000 (UTC)",
+      "snippet": "Your application was viewed by MishiPay ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-09-29T12:46:55.064Z",
+      "recordedAt": "2026-09-29T12:46:55.064Z"
+    },
+    {
+      "messageId": "1a0eceb77341723f",
+      "threadId": "1a0eceb77341723f",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Weekday (YC W21)",
+      "date": "Tue, 29 Sep 2026 11:27:29 +0000 (UTC)",
+      "snippet": "Your application was sent to Weekday (YC W21) ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:55.412Z",
+      "recordedAt": "2026-09-29T12:46:55.412Z"
+    },
+    {
+      "messageId": "1a0ece865d9b549a",
+      "threadId": "1a0ece865d9b549a",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to CausalFunnel",
+      "date": "Tue, 29 Sep 2026 11:24:08 +0000 (UTC)",
+      "snippet": "Your application was sent to CausalFunnel ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:55.834Z",
+      "recordedAt": "2026-09-29T12:46:55.834Z"
+    },
+    {
+      "messageId": "1a0ecd713b08d42a",
+      "threadId": "1a0ecd713b08d42a",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Zetheta Algorithms Private Limited",
+      "date": "Tue, 29 Sep 2026 11:05:12 +0000 (UTC)",
+      "snippet": "Your application was sent to Zetheta Algorithms Private Limited ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:56.331Z",
+      "recordedAt": "2026-09-29T12:46:56.331Z"
+    },
+    {
+      "messageId": "1a0ecd470f591666",
+      "threadId": "1a0ecd470f591666",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to MishiPay",
+      "date": "Tue, 29 Sep 2026 11:02:20 +0000 (UTC)",
+      "snippet": "Your application was sent to MishiPay ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:56.919Z",
+      "recordedAt": "2026-09-29T12:46:56.920Z"
+    },
+    {
+      "messageId": "1a0ecc87b9b91f1b",
+      "threadId": "1a0ecc87b9b91f1b",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Smytten",
+      "date": "Tue, 29 Sep 2026 10:49:16 +0000 (UTC)",
+      "snippet": "Your application was sent to Smytten ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:57.435Z",
+      "recordedAt": "2026-09-29T12:46:57.435Z"
+    },
+    {
+      "messageId": "1a0ec9ece7eb8cd2",
+      "threadId": "1a0ec9ece7eb8cd2",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to Weekday AI (YC W21)",
+      "date": "Tue, 29 Sep 2026 10:03:45 +0000 (UTC)",
+      "snippet": "Your application was sent to Weekday AI (YC W21) ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:57.941Z",
+      "recordedAt": "2026-09-29T12:46:57.941Z"
+    },
+    {
+      "messageId": "1a0ec8923af1694d",
+      "threadId": "1a0ec8923af1694d",
+      "from": "Jobgether Talent Team <shortlist@jobgether.com>",
+      "subject": "Next Steps for Your Job Application: API Support Engineer at Jobgether",
+      "date": "Tue, 29 Sep 2026 09:40:05 +0000",
+      "snippet": "Hello there, Thank you for applying to API Support Engineer. Your profile is currently under review. Here&#39;s what happens next: We&#39;re reviewing applications and will select the top matching",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-09-29T12:46:58.345Z",
+      "recordedAt": "2026-09-29T12:46:58.345Z"
+    },
+    {
+      "messageId": "1a0f376448c644ee",
+      "threadId": "1a0f376448c644ee",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, don’t forget to complete your application to TheJobsMap",
+      "date": "Wed, 30 Sep 2026 17:56:49 +0000 (UTC)",
+      "snippet": "Almost there! We saved your application for you. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-10-01T14:42:15.742Z",
+      "recordedAt": "2026-10-01T14:42:15.761Z"
+    },
+    {
+      "messageId": "1a0f1af8922c5988",
+      "threadId": "1a0f1af8922c5988",
+      "from": "Jobgether Talent Team <shortlist@jobgether.com>",
+      "subject": "Follow-up on your application to API Support Engineer",
+      "date": "Wed, 30 Sep 2026 09:40:07 +0000",
+      "snippet": "Hello there, Thanks again for applying to API Support Engineer. Our system has calculated a Match Score and generated a detailed Assessment Report, now available on your Jobgether profile. ⚠️ Please",
+      "leadType": "CODING_ASSESSMENT",
+      "detectedAt": "2026-10-01T14:42:16.315Z",
+      "recordedAt": "2026-10-01T14:42:16.315Z"
+    },
+    {
+      "messageId": "1a0f0e41676ee176",
+      "threadId": "1a0f0e41676ee176",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Your application to Full Stack Engineer at Zetheta Algorithms Private Limited",
+      "date": "Wed, 30 Sep 2026 05:57:54 +0000 (UTC)",
+      "snippet": "Your application to Full Stack Engineer at Zetheta Algorithms Private Limited ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-10-01T14:42:16.634Z",
+      "recordedAt": "2026-10-01T14:42:16.634Z"
+    },
+    {
+      "messageId": "1a0f0e3eb19f5353",
+      "threadId": "1a0f0e3eb19f5353",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Your application to Frontend Developer at Zetheta Algorithms Private Limited",
+      "date": "Wed, 30 Sep 2026 05:57:43 +0000 (UTC)",
+      "snippet": "Your application to Frontend Developer at Zetheta Algorithms Private Limited ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-10-01T14:42:16.945Z",
+      "recordedAt": "2026-10-01T14:42:16.945Z"
+    },
+    {
+      "messageId": "1a0f04339dcbc053",
+      "threadId": "1a0f04339dcbc053",
+      "from": "LinkedIn <jobs-noreply@linkedin.com>",
+      "subject": "Saurabh, your application was sent to SKXYWTF",
+      "date": "Wed, 30 Sep 2026 03:02:11 +0000 (UTC)",
+      "snippet": "Your application was sent to SKXYWTF ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+      "leadType": "APPLICATION_CONFIRMED",
+      "detectedAt": "2026-10-01T14:42:17.260Z",
+      "recordedAt": "2026-10-01T14:42:17.260Z"
+    },
+    {
+      "messageId": "1a0ed41e67907bba",
+      "threadId": "1a0ed41e67907bba",
+      "from": "Saurabh Kumar <saurabhrajput.25072005@gmail.com>",
+      "subject": "Application Follow-Up: Database Engineer/Admin Ã¢Â€Â“ Saurabh Kumar",
+      "date": "Tue, 29 Sep 2026 06:01:54 -0700",
+      "snippet": "Application Follow-Up: Database Engineer/Admin Dear Faiza Malik, I noticed your post regarding the Database Engineer/Admin opening at SoftNice UG and have submitted my application for the position. I",
+      "leadType": "GENERAL_RECRUITER_INQUIRY",
+      "detectedAt": "2026-10-01T14:42:17.749Z",
+      "recordedAt": "2026-10-01T14:42:17.749Z"
+    }
+  ],
+  "sweatshop_audits": [
+    {
+      "company": "Krunalkumar Shah",
+      "role": "Python Automation Intern",
+      "url": "https://www.linkedin.com/jobs/view/4473409414/",
+      "timestamp": "2026-10-03T04:13:57.767Z",
+      "flags": [
+        "EXPLICIT_UNPAID_INTERNSHIP",
+        "NO_STIPEND",
+        "FREE_LABOR_HARVESTING_INDICATORS"
+      ],
+      "status": "HALTED_PENDING_USER_APPROVAL"
+    }
+  ]
+}

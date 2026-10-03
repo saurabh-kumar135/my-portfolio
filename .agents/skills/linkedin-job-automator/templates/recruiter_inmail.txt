@@ -1,0 +1,15 @@
+Hi {{recruiter_name}},
+
+I noticed your post regarding the {{job_title}} role at {{company}} and submitted my application.
+
+I am a Full-Stack Developer with practical experience engineering scalable React, Node.js, and Express systems with MongoDB/Redis caching and AI-assisted workflows.
+
+You can explore my live deployed projects and code repositories here:
+• Portfolio: https://my-portfolio-delta-two-55.vercel.app
+• GitHub: https://github.com/saurabh-kumar135
+
+I would welcome the opportunity to connect and discuss how my technical skills can contribute to {{company}}'s engineering team!
+
+Best regards,
+Saurabh Kumar
++91-7668476462 | saurabhrajput.25072005@gmail.com

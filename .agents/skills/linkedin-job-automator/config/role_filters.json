@@ -1,0 +1,33 @@
+{
+  "targetRoles": [
+    "software developer",
+    "software engineer",
+    "full-stack developer",
+    "full stack developer",
+    "full-stack engineer",
+    "full stack engineer",
+    "ai engineer",
+    "machine learning engineer",
+    "backend developer",
+    "backend engineer",
+    "frontend developer",
+    "frontend engineer",
+    "web developer",
+    "sde",
+    "sde 1",
+    "sde intern",
+    "software engineer intern",
+    "mern stack developer"
+  ],
+  "excludeKeywords": [
+    "sales", "marketing", "hr executive", "accountant", "finance manager",
+    "content writer", "graphic designer", "data entry", "bpo",
+    "customer support", "telecaller", "hardware verification", "fpga engineer", "asic engineer"
+  ],
+  "hiringIndicators": [
+    "hiring", "we are hiring", "we're hiring", "open role", "open position",
+    "opportunity", "job opening", "apply here", "dm to apply", "dm me",
+    "send your resume", "share your cv", "looking for", "careers@",
+    "recruitment", "join our team", "immediate joiner", "urgent hiring"
+  ]
+}

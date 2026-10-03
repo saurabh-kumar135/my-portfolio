@@ -1,0 +1,38 @@
+{
+  "name": "Saurabh Kumar",
+  "firstName": "Saurabh",
+  "lastName": "Kumar",
+  "email": "saurabhrajput.25072005@gmail.com",
+  "phone": "+91-7668476462",
+  "phoneCode": "+91",
+  "phoneNumber": "7668476462",
+  "location": "Lucknow, Uttar Pradesh, India",
+  "city": "Lucknow",
+  "country": "India",
+  "linkedin": "https://linkedin.com/in/saurabhkumarrajput2",
+  "github": "https://github.com/saurabh-kumar135",
+  "portfolio": "https://my-portfolio-delta-two-55.vercel.app",
+  "resumePath": "/home/saurabh-kumar123/Desktop/Desktop/express/saurabh_resume.pdf",
+  "education": {
+    "institution": "Dr. APJ Abdul Kalam Technical University (AKTU)",
+    "college": "R V Institute of Technology (RVIT), Bijnor (College Code: 501)",
+    "degree": "Bachelor of Technology",
+    "fieldOfStudy": "Computer Science and Engineering",
+    "rollNumber": "2305010100045",
+    "collegeRollNumber": "BCS23014",
+    "startYear": "2023",
+    "endYear": "2027",
+    "cgpa": "7.26"
+  },
+  "workAuthorization": {
+    "authorizedInIndia": true,
+    "requiresSponsorship": false
+  },
+  "currentSalaryLPA": "0",
+  "noticePeriodDays": "0",
+  "skills": [
+    "JavaScript", "TypeScript", "React", "Node.js", "Express.js",
+    "MongoDB", "PostgreSQL", "Redis", "Docker", "TailwindCSS",
+    "Python", "REST APIs", "Git", "GitHub", "MCP (Model Context Protocol)"
+  ]
+}
