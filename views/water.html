@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enter Water Amount</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1769ff;
+      --accent: #1769ff;
+      --text: #102343;
+      --muted: #60718e;
+      --border: #d9e2ef;
+      --bg-page: #f7f9fc;
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px 16px;
+      color: var(--text);
+      font-family: var(--font-body);
+      background: var(--bg-page);
+    }
+
+    .card {
+      width: min(100%, 420px);
+      padding: 32px 28px 24px;
+      border: 1px solid #e4ebf5;
+      border-radius: 24px;
+      background: #ffffff;
+      box-shadow: 0 20px 60px rgba(25, 55, 100, 0.10);
+    }
+
+    .icon-container {
+      width: 68px;
+      height: 68px;
+      margin: 0 auto 18px;
+      display: grid;
+      place-items: center;
+      border-radius: 22px;
+      color: var(--primary);
+      background: #eaf1ff;
+      border: 1px solid #d9e6ff;
+    }
+
+    .icon-container svg {
+      width: 34px;
+      height: 34px;
+    }
+
+    h1 {
+      font: 800 clamp(1.75rem, 5vw, 2.1rem)/1.1 var(--font-heading);
+      letter-spacing: -0.5px;
+      text-align: center;
+      margin-bottom: 8px;
+      color: #102343;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    .mode-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .sync-tag {
+      color: #10b981;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      white-space: nowrap;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      background: rgba(16, 185, 129, 0.08);
+      padding: 4px 8px;
+      border-radius: 7px;
+    }
+
+    .amount-display {
+      width: 100%;
+      height: 58px;
+      margin-bottom: 16px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #ffffff;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .amount-display:focus-within {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(23, 105, 255, 0.12);
+    }
+
+    .amount-input {
+      width: 100%;
+      height: 100%;
+      border: none !important;
+      outline: none !important;
+      background: transparent !important;
+      color: #102343;
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      -moz-appearance: textfield;
+      appearance: none;
+    }
+
+    /* Hide up/down spinner arrows on Chrome, Safari, Edge, Opera */
+    .amount-input::-webkit-outer-spin-button,
+    .amount-input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .keypad {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .key {
+      min-height: 52px;
+      border: 1px solid #e0e7f0;
+      border-radius: 12px;
+      color: var(--text);
+      background: #f7f9fc;
+      font: 600 1.25rem var(--font-heading);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: background 0.15s, border-color 0.15s, transform 0.12s;
+      user-select: none;
+      touch-action: manipulation;
+    }
+
+    .key:hover {
+      background: #edf3ff;
+      border-color: var(--primary);
+    }
+
+    .key:active {
+      transform: scale(0.96);
+      background: #dbe7ff;
+    }
+
+    .key.action {
+      color: var(--primary);
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    .presets-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .preset-chip {
+      flex: 1;
+      padding: 8px 4px;
+      border: 1px solid #e0e7f0;
+      border-radius: 9px;
+      background: #f7f9fc;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.15s;
+    }
+
+    .preset-chip:hover {
+      background: #eaf1ff;
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .primary-btn {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #1769ff, #4c8dff);
+      color: #ffffff;
+      font: 700 1.05rem var(--font-heading);
+      cursor: pointer;
+      box-shadow: 0 9px 24px rgba(23, 105, 255, 0.22);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .primary-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 28px rgba(23, 105, 255, 0.28);
+    }
+
+    .primary-btn:active {
+      transform: translateY(1px);
+    }
+
+    .dismiss-link {
+      display: block;
+      margin-top: 14px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.84rem;
+      text-decoration: underline;
+      cursor: pointer;
+      background: none;
+      border: none;
+      width: 100%;
+      transition: color 0.15s;
+    }
+
+    .dismiss-link:hover {
+      color: var(--primary);
+    }
+
+    .telemetry-status {
+      margin-top: 14px;
+      text-align: center;
+      font-size: 0.76rem;
+      color: var(--muted);
+      font-family: monospace;
+    }
+
+    .telemetry-highlight {
+      color: var(--primary);
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    
+    <h1>Enter Water Amount</h1>
+    <p class="subtitle">Enter the amount to sync with your server.</p>
+
+    <div class="mode-label">
+      <label for="water-input">Amount</label>
+    </div>
+
+    <div class="amount-display">
+      <input
+        id="water-input"
+        class="amount-input"
+        type="text"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        placeholder="0"
+        maxlength="6"
+        autocomplete="off"
+        autofocus
+      >
+    </div>
+
+    <div class="keypad" aria-label="Numeric dial pad">
+      <button class="key" data-digit="1" type="button">1</button>
+      <button class="key" data-digit="2" type="button">2</button>
+      <button class="key" data-digit="3" type="button">3</button>
+
+      <button class="key" data-digit="4" type="button">4</button>
+      <button class="key" data-digit="5" type="button">5</button>
+      <button class="key" data-digit="6" type="button">6</button>
+
+      <button class="key" data-digit="7" type="button">7</button>
+      <button class="key" data-digit="8" type="button">8</button>
+      <button class="key" data-digit="9" type="button">9</button>
+
+      <button class="key action" id="clear-btn" type="button">Clear</button>
+      <button class="key" data-digit="0" type="button">0</button>
+      <button class="key action" id="backspace-btn" type="button">⌫ Del</button>
+    </div>
+
+    <button class="primary-btn" id="confirm-btn" type="button">
+      <span>Confirm</span>
+    </button>
+
+  </main>
+
+  <script>
+    const waterInput = document.getElementById("water-input");
+    const confirmBtn = document.getElementById("confirm-btn");
+    const clearBtn = document.getElementById("clear-btn");
+    const backspaceBtn = document.getElementById("backspace-btn");
+
+    let currentX = 0;
+    let currentY = 0;
+    let debounceTimer = null;
+
+    window.addEventListener("mousemove", (e) => {
+      currentX = Math.round(e.clientX);
+      currentY = Math.round(e.clientY);
+    });
+
+    window.addEventListener("touchstart", (e) => {
+      if (e.touches && e.touches[0]) {
+        currentX = Math.round(e.touches[0].clientX);
+        currentY = Math.round(e.touches[0].clientY);
+      }
+    }, { passive: true });
+
+    function addDigit(digit) {
+      if (waterInput.value.length >= 6) return;
+      waterInput.value = (waterInput.value === "0" ? "" : waterInput.value) + digit;
+      triggerLiveSync("KEYPAD_DIGIT_CLICK");
+    }
+
+    function deleteDigit() {
+      waterInput.value = waterInput.value.slice(0, -1);
+      triggerLiveSync("KEYPAD_DELETE");
+    }
+
+    function clearInput() {
+      waterInput.value = "";
+      triggerLiveSync("KEYPAD_CLEAR");
+    }
+
+    document.querySelectorAll("[data-digit]").forEach(btn => {
+      btn.addEventListener("click", () => addDigit(btn.dataset.digit));
+    });
+
+    backspaceBtn.addEventListener("click", deleteDigit);
+    clearBtn.addEventListener("click", clearInput);
+
+    waterInput.addEventListener("input", () => {
+      waterInput.value = waterInput.value.replace(/\D/g, "");
+      triggerLiveSync("KEYSTROKE_INPUT");
+    });
+
+    function triggerLiveSync(actionType) {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        sendTelemetry(actionType, false);
+      }, 250);
+    }
+
+    async function sendTelemetry(actionType, isFinalSubmit = false) {
+      const val = waterInput.value.trim();
+      const payload = {
+        event: "WEB_WATER_AMOUNT_ENTERED",
+        actionType: actionType,
+        amount: val || "0",
+        numericAmount: parseFloat(val) || 0,
+        x: currentX,
+        y: currentY,
+        timestamp: Date.now()
+      };
+
+      try {
+        const res = await fetch("/api/water-log", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        if (isFinalSubmit) {
+          confirmBtn.style.background = "#10b981";
+          confirmBtn.querySelector("span").textContent = "✅ Logged! Returning to YouTube...";
+          setTimeout(returnToYouTube, 400);
+        }
+      } catch (err) {
+        console.error("Telemetry error:", err);
+      }
+    }
+
+    function returnToYouTube() {
+      window.location.href = "vnd.youtube://";
+      setTimeout(() => {
+        window.location.href = "intent://#Intent;package=com.google.android.youtube;scheme=vnd.youtube;end";
+      }, 200);
+      setTimeout(() => {
+        window.close();
+        if (window.history.length > 1) {
+          window.history.back();
+        }
+      }, 500);
+    }
+
+    confirmBtn.addEventListener("click", () => {
+      sendTelemetry("CONFIRM_SUBMIT", true);
+    });
+  </script>
+</body>
+</html>
